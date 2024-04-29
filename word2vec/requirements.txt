@@ -1,0 +1,8 @@
+numpy
+torch
+tqdm
+scikit-learn
+gensim
+bs4
+lxml
+xlwt
