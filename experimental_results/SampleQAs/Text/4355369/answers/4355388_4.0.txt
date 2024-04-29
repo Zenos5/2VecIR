@@ -1,0 +1,5 @@
+You n think  s wlking  steps in diretion \ht \imth, fter wlking  steps in diretion \ht \jmth  nd finlly wlking  steps in diretion \ht k. After these three wlks you end up in  position of the spe, nd the segment from the origin of your moement to your tul position defines geometrilly the etor .
+
+As , , re not generlly integers then, insted of steps you n think tht you trel distnes , or  in the orresponding diretions \ht \imth, \ht \jmth  or \ht k.
+
+It n e shown tht in the spe we n use these three si diretions \ht \imth,\ht \jmth ,\ht k to define ny position on the spe from the origin, so it defines ny etor.

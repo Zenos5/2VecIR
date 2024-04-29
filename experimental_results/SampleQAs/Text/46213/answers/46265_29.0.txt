@@ -1,0 +1,11 @@
+Schilling was my introduction to the subject too. There are a few misprints, but a lot of them are corrected in the errata.
+
+I&#39;ve found Rudin&#39;s Real and Complex Analysis useful as a reference / second text. You could also take a look at [Folland&#39;s Real Analysis][1]. Terry Tao has notes about the subject on his blog, see [here][2].
+
+One of the most comprehensive books, besides Kallenberg&#39;s Foundations of Modern Probability, is probably [Bogachev&#39;s Measure Theory][3] (2-volumes). Its Table of Contents can be viewed [at Springer][4].
+
+
+  [1]: http://www.amazon.com/Real-Analysis-Techniques-Applications-Mathematics/dp/0471317160/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1308477720&amp;sr=1-1
+  [2]: http://en.wordpress.com/tag/245a-real-analysis/
+  [3]: http://www.amazon.com/Measure-Theory-Set-Vladimir-Bogachev/dp/3540345132
+  [4]: http://www.google.nl/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBsQFjAA&amp;url=http://www.springer.com/mathematics/analysis/book/978-3-540-34513-8&amp;ei=tMr9Tf-wGoSc-wbMncTfAw&amp;usg=AFQjCNFy_Bj8xUxxV6_1Zx1lt2vha5553Q

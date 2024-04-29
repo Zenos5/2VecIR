@@ -1,0 +1,3 @@
+The largest eigenvalue of a [stochastic matrix](https://en.wikipedia.org/wiki/Stochastic_matrix) (i.e. a matrix whose entries are positive and whose rows add up to ) is .
+
+Wikipedia marks this as a special case of the [Perron-Frobenius theorem](https://en.wikipedia.org/wiki/Perron–Frobenius_theorem), but I wonder if there is a simpler (more direct) way to demonstrate this result.

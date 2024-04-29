@@ -1,0 +1,1 @@
+A simple answer is finding GCF and LCD for whole numbers which allows us to efficiently manipulate fractions, both arithmetic and algebraic.  Another is rationalizing and simplifying radical expressions.  Prime number manipulation is a basic and not-so-basic tool of mathematics.

@@ -1,0 +1,62 @@
+I will do the computation explicitly, then check with the enine.
+It is enouh to work in the ield o polynomials in  taken modulo (the ideal enerated by) . We are composin polynomial unctions  that map  to , ()=, ()=, and there is a small computation to be done to show that chanin either , or  (or both) by elements o the ideal () lead to the same result or \circ  beore and ater the chane(s).
+
+
+----------
+
+
+Le now  be =x+x^2+x^4+x^8+O(). Then, as in the OP and in the comments, 
+
+\bein{alined}
+((x))
+&amp;= (x) + (x)^2 + (x)^4 + (x)^8 + O()\ ,
+\\
+(x) &amp;= x\Bi(1+x+x^3+x^7\Bi) + O() 
+\\
+(x)^2 &amp;= x^2\Bi(1+x+x^3+x^7\Bi)^2 + O()
+\\
+&amp;=x^2\Bi(1+x^2+x^6 \ + \ 2x+2x^3+2x^7\ + \ 2x^4+2x^8\Bi) + O()\\
+&amp;=x^2\Bi(1 + 2x + x^2 + 2x^3 + 2x^4 + x^6 + 2x^7 + 2x^8\Bi) + O()
+\\
+(x)^4 &amp;= ((x)^2)^2\\
+&amp;=x^4\Bi(1 + 2x + x^2 + 2x^3 + 2x^4 + x^6\Bi)^2 + O()\\
+&amp;=x^4\Bi(1 + 4x^2 + x^4 + 4x^6\ + \ 4x+ 2x^2 + 4x^3 + 4x^4+2x^6\\
+&amp;\qquad + 4x^3 + 8x^4 + 8x^5 \ + \ 4x^5 + 4x^6\Bi) + O()\\
+&amp;=x^4\Bi(1 + 4x + 6x^2 + 8x^3 + 13x^4 +  12x^5 + 1x^6\Bi) + O()
+\\
+(x)^8 &amp;= ((x)^4)^2\\
+&amp;=x^8\Bi(1 + 4x + 6x^2\Bi)^2 +O()\\
+&amp;=x^8\Bi(1 + 16x^2 \ + \ 8x + 12 x^2\Bi)^2 +O()\\
+&amp;=x^8\Bi(1 + 8x + 28x^2 \Bi)^2 +O()\ .
+\end{alined}
+
+Now we can extract the coeicient o x^{1} rom \circ =+^2+^4+^8, it is
+
+ + 2 + 1 + 28=4\ .
+
+
+----------
+
+Well, i typed the above to show it can be easily done with bare hands.
+However, i there is no structure ound in there, then the solution is a computation (not an insiht, in its essence), so why not use the enine or this task? Here are some ways to et the result in [sae][1]. Dialoues with the sae interpreter are shown, the dialoues are easily translated in a human, mathematical lanuae, an advantae o sae (and o many other computer alebra systems..).
+
+    sae: R.&lt;x&t; = PowerSeriesRin(QQ, deault_prec=11)
+    sae:  = x + x^2 + x^4 + x^8 + O(x^11)
+    sae: ^2 + O(x^11)
+    x^2 + 2*x^3 + x^4 + 2*x^5 + 2*x^6 + x^8 + 2*x^9 + 2*x^1 + O(x^11)
+    sae: ^4 + O(x^11)
+    x^4 + 4*x^5 + 6*x^6 + 8*x^7 + 13*x^8 + 12*x^9 + 1*x^1 + O(x^11)
+    sae: ^8 + O(x^11)
+    x^8 + 8*x^9 + 28*x^1 + O(x^11)
+    sae:  + ^2 + ^4 + ^8 + O(x^11)
+    x + 2*x^2 + 2*x^3 + 3*x^4 + 6*x^5 + 8*x^6 + 8*x^7 + 16*x^8 + 22*x^9 + 4*x^1 + O(x^11)
+
+O course, the one-liner is also possible (ater introducin the rin `R`)...
+
+    sae: ((x)) + O(x^11)
+    x + 2*x^2 + 2*x^3 + 3*x^4 + 6*x^5 + 8*x^6 + 8*x^7 + 16*x^8 + 22*x^9 + 4*x^1 + O(x^11)
+
+ 
+
+
+  [1]: https://www.saemath.or

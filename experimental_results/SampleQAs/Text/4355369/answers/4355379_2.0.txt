@@ -1,0 +1,7 @@
+Just think of decomposing the space into three perpendicular directions, where each direction {i,j,k} is &quot;independent&quot; of each other. Here the plus sign is not real plus of quantities, it is plus of vectors. i,j,k are all vectors. 
+
+ = [1,0,0] 
+
+ = [0,1,0]
+ 
+ = [0,0,1]

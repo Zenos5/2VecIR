@@ -1,0 +1,1 @@
+I think you can iterate over all arcs that don’t lie inside any circle or form the boundary of the area of union of all circles and for each arc find the minimum distance from that point where you’re standing. Exception would be when current position is the answer.

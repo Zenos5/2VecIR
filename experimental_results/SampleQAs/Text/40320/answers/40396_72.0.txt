@@ -1,0 +1,4 @@
+Here&#39;s a really elementary proof (which is a slight modification of [Fanfan&#39;s answer to a question of mine][]). s Calle shows, it is easy to see that the eigenvalue  is obtained.  Now, suppose  for some \lambda &gt; .  Since the rows of  are nonnegative and sum to , each element of vector  is a conve combination of the components of , which can be no greater than _{ma}, the largest component of .  On the other hand, at least one element of \lambda  is greater than _{ma}, which proves that \lambda &gt;  is impossible.
+
+
+  []: https://math.stackechange.com/questions/8695/no-solutions-to-a-matri-inequality/8702#8702

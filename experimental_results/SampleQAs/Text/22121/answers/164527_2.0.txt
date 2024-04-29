@@ -1,0 +1,19 @@
+Just for completeness, here is induction (just for divisibility by 7) :
+
+Claim :  is divisible by 7
+
+Base Case: True for n = 1,2
+
+Induction Step:
+Assume true for n = k. To prove true for n = k + 1.
+
+Now, (k+1)^7 - (k+1) = k^7 + 7k^6 + 21k^5 + 35k^4 + 35k^3 + 21k^2 + 7k + 1 - k - 1 \\= () + 7(k^6 + 3k^5 + 5k^4 + 5k^3 + 3k^2 + k)
+We know by our assumption that  is divisible by 7. Therefore,  is divisible by 7.
+
+This shows that  is divisible by 7.
+
+To show divisibility by 2 and 3, unfortunately, one has to fall back on some of the earlier tricks.
+ = n(n^6 - 1) = (n^2 - n + 1)(n^2 + n + 1)
+ is a product of three consecutive integers. Product of two consecutive integers is divisible by 2 and product of three consecutive integers is divisible by 3. Since, , product of three consecutive integers is divisible by 6. Since ,  is divisible by 42.
+
+QED

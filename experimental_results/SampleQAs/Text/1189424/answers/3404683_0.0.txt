@@ -1,0 +1,16 @@
+Since the minimum over a set is no greater than the minimum over a subset,
+
+\begin{align}
+\gcd(\gcd(a,b),c)
+&amp;={\min_{u,v}}^+\!\left({\min_{x,y}}^+(ax+by)u+cv\right)\\
+&amp;\ge{\min_{x,y,z}}^+(ax+by+cz)\\
+&amp;=\gcd(a,b,c)\tag1
+\end{align}
+
+ and so . Thus, by the maximality of the gcd,
+
+\gcd(\gcd(a,b),c)\le\gcd(a,b,c)\tag2
+
+ and  imply that
+
+\gcd(\gcd(a,b),c)=\gcd(a,b,c)\tag3

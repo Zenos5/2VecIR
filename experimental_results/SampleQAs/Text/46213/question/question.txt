@@ -1,0 +1,18 @@
+I post this question with some personal specifications. I hope it does not overlap with old posted questions.
+
+Recently I strongly feel that I have to review the knowledge of measure theory for the sake of starting my thesis.
+
+I am not totally new with measure theory, since I have taken and past one course at the graduate level. Unfortunately, because the lecturer was not so good at teaching, I followed the course by self-study. Now I feel that all the knowledge has gone after the exam and still don’t have a clear overview on the structure of measure theory.
+And here come my specified requirements for a reference book.
+
+1.	I wish the book elaborates the proofs, since I will read it on my own again, sadly. And this is the most important criterion for the book.
+
+2.	I wish the book covers most of the topics in measure theory. Although the topic of my thesis is on stochastic integration, I do want to review measure theory at a more general level, which means it could emphasize on both aspects of analysis and probability. If such a condition cannot be achieved, I&#39;d like to more focus on probability.
+
+3.	I wish the book could deal with convergences and uniform integrability carefully, as Chung’s probability book. 
+
+My expectation is after thorough reading, I could have strong background to start a thesis on stochastic integration at an analytic level.
+
+Sorry for such a tedious question.
+
+P.S: the textbook I used is Schilling’s book: measures, integrals and martingales. It is a pretty good textbook, but misprints really ruin the fun of reading.

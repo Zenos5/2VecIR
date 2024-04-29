@@ -1,0 +1,19 @@
+First, some preliminary manipulation. 
+
+The last step uses the [quadruple angle formula for cosine][1]. Now , using this twice yields:
+
+We can now use the [half-angle formula for cosine][2], which is . 
+
+The time is ripe to substitute with . Then  and 
+
+To finish this relatively simple integral, I did another substitution, this time with  and . 
+
+This is an integral that involves [:][3]\frac{\sqrt{2}}{-2}\int \frac{1}{t^2 +2} \ dt=-\frac{1}{2}(\frac{t}{\sqrt{2}})=-\frac{1}{2}(\frac{\sqrt{u-2}}{\sqrt{2}})\\=-\frac{1}{2}(\sqrt{\frac{\cos 4x +1}{2}})=-\frac{1}{2} (\cos 2x)
+
+Checking with [wolframalpha][4], this differentiates to the correct result.
+
+
+  [1]: https://proofwiki.org/wiki/Quadruple_Angle_Formulas#Quadruple_Angle_Formula_for_Cosine
+  [2]: https://en.wikipedia.org/wiki/List_of_trigonometric_identities#Half-angle_formulae
+  [3]: https://math.la.asu.edu/~surgent/mat266/arctanintegrals.pdf
+  [4]: https://www.wolframalpha.com/input/?i=derivative%20-0.5arctan(cos(2x))

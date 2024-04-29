@@ -1,0 +1,241 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mn>
+   3
+  </mn>
+  <mover>
+   <mrow>
+    <mi>
+     i
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   +
+  </mo>
+  <mn>
+   2
+  </mn>
+  <mover>
+   <mrow>
+    <mi>
+     j
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   −
+  </mo>
+  <mn>
+   4
+  </mn>
+  <mover>
+   <mrow>
+    <mi>
+     i
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   +
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mn>
+   5
+  </mn>
+  <mover>
+   <mrow>
+    <mi>
+     i
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   −
+  </mo>
+  <mover>
+   <mrow>
+    <mi>
+     j
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   +
+  </mo>
+  <mn>
+   2
+  </mn>
+  <mover>
+   <mrow>
+    <mi>
+     k
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mn>
+   3
+  </mn>
+  <mo>
+   +
+  </mo>
+  <mn>
+   5
+  </mn>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mover>
+   <mrow>
+    <mi>
+     i
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   +
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mn>
+   2
+  </mn>
+  <mo>
+   −
+  </mo>
+  <mn>
+   1
+  </mn>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mover>
+   <mrow>
+    <mi>
+     j
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   +
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mo>
+   −
+  </mo>
+  <mn>
+   4
+  </mn>
+  <mo>
+   +
+  </mo>
+  <mn>
+   2
+  </mn>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mover>
+   <mrow>
+    <mi>
+     k
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   =
+  </mo>
+  <mn>
+   8
+  </mn>
+  <mover>
+   <mrow>
+    <mi>
+     i
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   +
+  </mo>
+  <mover>
+   <mrow>
+    <mi>
+     j
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   +
+  </mo>
+  <mo>
+   −
+  </mo>
+  <mn>
+   2
+  </mn>
+  <mover>
+   <mrow>
+    <mi>
+     k
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+ </mrow>
+</math>

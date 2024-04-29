@@ -1,0 +1,8 @@
+If we can show that  doesn&#39;t increase the 1-norm, i.e.,
+\|x\|_1\leq\|x\|_1
+Then \|x\|_1=\|\lambda x\|_1=|\lambda|\|x\|_1\leq\|x\|_1
+which is , we are done, but how to show above inequality? For convenience, let&#39;s set stochastic matrix
+=\begin{pmatrix}a_{11}&amp; a_{12}\\a_{21}&amp; a_{22}\end{pmatrix}
+Then
+\begin{eqnarray*}\|x\|_1&amp;=&amp;|a_{11}x_1+a_{12}x_2|+|a_{21}x_1+a_{22}x_2|\\&amp;\leq&amp; a_{11}|x_1|+a_{12}|x_2|+a_{21}|x_1|+a_{22}|x_2|\\&amp;=&amp;|x_1|+|x_2|\\&amp;=&amp;\|x\|_1\end{eqnarray*}
+For n-dimensional matrix, it can be shown in same manner.

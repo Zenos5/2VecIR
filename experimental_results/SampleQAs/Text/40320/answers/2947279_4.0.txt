@@ -1,0 +1,20 @@
+Call **** a  [stochastic matrix][] and denote with  one of its eigenpair.
+
+Obviously  is an eigenvalue for , indeed follow directly from the definition of row-stochastic [column-stochastic] matrix that  =(\dots)^{T} is a right [left] eigenvector associated with .
+
+Using [induced matrix norm][2] \parallel\parallel_{} or  ,  it&#39;s easy to prove that the spectral radius \rho()\leq  :
+
+
+|\lambda|= \frac{|| x||}{||x||} \leq max_{||x||=} ||x||= ||||
+
+Now, since ||||_{}  [respectively ||||_{\infty} ] is the maximum absolute column [row] sum of the matrix, we have 
+
+||||_{}= if  is a column-stochastic matrix and
+ 
+||||_{\infty}= if  is a row-stochastic matrix,
+
+and then in any case |\lambda|\leq .
+
+
+  []: https://en.wikipedia.org/wiki/Stochastic_matrix
+  [2]: https://en.wikipedia.org/wiki/Matrix_norm

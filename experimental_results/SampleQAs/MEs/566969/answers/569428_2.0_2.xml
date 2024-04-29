@@ -1,0 +1,56 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   x
+  </mi>
+  <mi>
+   y
+  </mi>
+  <msup>
+   <mi>
+    x
+   </mi>
+   <mrow>
+    <mo>
+     −
+    </mo>
+    <mn>
+     1
+    </mn>
+   </mrow>
+  </msup>
+  <msup>
+   <mi>
+    y
+   </mi>
+   <mrow>
+    <mo>
+     −
+    </mo>
+    <mn>
+     1
+    </mn>
+   </mrow>
+  </msup>
+  <msup>
+   <mo stretchy="false">
+    )
+   </mo>
+   <mn>
+    4
+   </mn>
+  </msup>
+  <mo>
+   =
+  </mo>
+  <mi>
+   e
+  </mi>
+  <mo>
+   .
+  </mo>
+ </mrow>
+</math>

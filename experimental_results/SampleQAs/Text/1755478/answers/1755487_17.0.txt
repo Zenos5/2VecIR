@@ -1,0 +1,11 @@
+y favorite : let  be your groud field, ad let A = [X_{ij}]_{1\leqslat i,j\leqslat } be the rig of polyomials i  idetermiates over , ad .
+
+The put  the &quot;geeric matrix&quot;. 
+
+For ay N=(a_{ij})_{ij}\i _(), there is a uique -algebra morphism \varphi_N:A\to  defied by  that satisfies .
+
+The the characteristic polyomial of  is separable (ie  has  distict eigevalues i a algebraic closure  of ). Ideed, otherwise its resultat Res(\chi_) is zero, so for ay N\i _(), Res(\chi_N) = Res(\chi_{\varphi_N()})= \varphi_N(Res(\chi_)) = 0, so *o* matrix N\i _() would have distict eigevalues (but obviously some do, just tae a diagoal matrix).
+
+It&#39;s easy to show that matrices with separable characteristic polyomial satisfy Cayley-Hamilto (because they are diagoalizable i a algebraic closure), so  satisfies Cayley-Hamilto.
+
+Now for ay N\i _(), \chi_N(N) = \varphi_N(\chi_()) = \varphi_N(0) = 0.

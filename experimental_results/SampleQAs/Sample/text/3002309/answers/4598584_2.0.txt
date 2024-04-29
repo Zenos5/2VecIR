@@ -1,0 +1,10 @@
+Let 
+\begin{align}
+I’(a)&amp;= \int_0^1\frac{4(1-x)\sinh2a }{1+4 x(1-x) \sinh^2a}dx\\
+&amp;= \left[ \frac{\ln[1+4 x(1-x) \sinh^2a]}{\tanh a}
++2\tanh^{-1}\frac{2x-1}{\coth a}\right]_0^1=4a
+\end{align}
+Then
+\int_0^1\frac{\ln(1+x-x^2)}xdx
+=\int_0^{\sinh^{-1}\frac12}I’(a)da
+= \int_0^{\ln\phi}4a\ da=2\ln^2\phi

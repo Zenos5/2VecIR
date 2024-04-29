@@ -1,0 +1,7 @@
+Here&#39;s a tentative proof that  is the inverse of . 
+
+The left eigenvectors of  are the right eigenvectors of ^T. Therefore if =⋅Λ⋅^{-1} then ^T=^{-T}⋅Λ⋅^T which is an EVD. If the eigenvalues are distinct, the EVD is unique (up to scaling of eigenvectors), which proves that left eigenvectors are rows of ^{−1}, i.e. =^{-1}. 
+
+(I&#39;m pasting this answer from https://math.stackexchange.com/questions/2071977/power-of-a-nonsymmetric-matrix , it&#39;s due to Florian)
+
+Of course the counterexamples below cast a dark shadow on this proof, but I can see nothing wrong with it.

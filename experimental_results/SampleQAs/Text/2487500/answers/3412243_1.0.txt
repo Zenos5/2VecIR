@@ -1,0 +1,11 @@
+I always use the shorthad of  (the itegers) for ifiite order groups ad _ (remaiders mod ) for groups of order .
+
+This is quite usefuls sice *ay cyclic group* is isomorphic to oe of these two.
+
+This also gives a bit of sese *why* groups might be useful.
+
+i.e. as a abstractio of the Itegers, allowig you to study groups (which are a less complicated object) istead of some complicated set (like the itegers with additio ad multiplicatio, complex umbers with additio, divisio, etc.).
+
+You throw away the clutter, ad oly the essetial stuff remais.
+
+Maybe it&#39;s ot as &quot;visual&quot; but it builds o the commo ituitios you have about the itegers. Ad I foud it quite helpful gettig through the &quot;basic&quot; theory, up to the poit where it gets iterestig. :)

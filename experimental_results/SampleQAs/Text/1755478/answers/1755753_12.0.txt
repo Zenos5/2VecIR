@@ -1,0 +1,2 @@
+Here is a neat proof from Qiaochu Yuan&#39;s answer to [this question](https://math.stackexchange.com/questions/1545956/proofs-in-linear-algebra-via-topology/1546538#1546538):  
+&gt;If  is diagonalizable with eigenvalues , then it&#39;s clear that ( - \lambda_1) \dots ( - \lambda_n) = 0, which is the Cayley-Hamilton theorem for . But the Cayley-Hamilton theorem is a &quot;continuous&quot; fact: for an  matrix it asserts that  polynomial functions of the  entries of  vanish. And the diagonalizable matrices are dense (over ). Hence we get Cayley-Hamilton in general.

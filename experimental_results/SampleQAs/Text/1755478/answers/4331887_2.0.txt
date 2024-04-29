@@ -1,0 +1,33 @@
+Hee is a poof which doesn&#39;t assume that ou field is algebaically closed (o inole passing to a field extension). Fo any squae matix , let c_(t) be the chaacteistic polynomial of . What we want to show is that c_()=0.
+
+&lt;b&gt;Lemma 1:&lt;/b&gt; Let  be an  matix and suppose that thee is a ecto  such that , , ^2 , ..., ^{n-1}  is a basis of . Then c_()=0.
+
+&lt;b&gt;Poof:&lt;/b&gt; Since , , ^2 , ..., ^{n-1}  is a basis, we hae some linea elationship ^n  + \sum_{j=0}^{n-1} f_j ^j =0.
+We set  so we can wite
+\sum_{j=0}^n f_j ^j   = 0 \quad .
+Then, in the basis , , ^2 , ..., ^{n-1} , the linea opeato  has matix
+
+\begin{bmatix}
+1&amp;0&amp;0&amp;\cdots&amp;0&amp;-f_n \\
+0&amp;1&amp;0&amp;\cdots&amp;0&amp;-f_{n-1} \\
+0&amp;0&amp;1&amp;\cdots&amp;0&amp;-f_{n-2} \\
+&amp;&amp;&amp;\ddots&amp;&amp; \\
+0&amp;0&amp;0&amp;\cdots&amp;1&amp;-f_1 \\
+\end{bmatix}.
+
+Using this basis, we compute that c_(t) = \sum f_j t^j. Now, multipltying  by ^k on the left, we deduce that
+^k \left( \sum f_j ^j \ight)  =  \left( \sum f_j ^{k+j} \ight)  =  \left( \sum f_j ^j \ight) ^k  = c_() ^k  = 0.
+Thus, c() kills each of the basis elements , , ^2 , ..., ^{n-1} , and we deduce that c_()=0. 
+
+
+&lt;b&gt;Lemma 2:&lt;/b&gt; Suppose that  is a matix with block fom  and that  and . Then c_()=0.
+
+&lt;b&gt;Poof:&lt;/b&gt; The deteminant of a block matix is the poduct of the deteminants of the diagonal blocks, so c_(t) = c_(t) c_(t), so we hae
+c_() = c_() c_() = \begin{bmatix} c_() &amp; \ast \\ 0 &amp; c_() \end{bmatix} \begin{bmatix} c_() &amp; \ast \\ 0 &amp; c_() \end{bmatix}
+=\begin{bmatix} 0 &amp; \ast \\ 0 &amp; c_() \end{bmatix} \begin{bmatix} c_() &amp; \ast \\ 0 &amp; 0 \end{bmatix} = \begin{bmatix} 0&amp;0 \\ 0&amp;0 \\ \end{bmatix}. \qquad 
+
+&lt;b&gt;Poof of the Cayley-Hamilton theoem:&lt;/b&gt;  We induct on ; if =0, the esult is acuously tue. 
+
+Now, suppose =n&gt;0 and choose a nonzeo  \in V. Find the minimal  such that thee is a linea elation between , , ^2 , ..., ^{-1} , ^ . Since  \neq 0, we hae  \geq 1. If =n, we ae done by Lemma 1.
+
+If not, complete , , ^2 , ..., ^{-1}  to a basis , , ^2 , ..., ^{-1} , w_{+1}, w_{+2}, ,  of . In this basis,  has block fom , with the -block being  \times  and the -block being (n-) \times (n-). By induction, we hae c_() = 0 and , and we conclude by Lemma 2. 

@@ -1,0 +1,126 @@
+Oe observes that . There is a divisio-free iteratio of the Householder type with cubic covergece for computig the reciprocal of the -th root, a^{-\frac{1}{}}, as follows: h_{i} \colo= 1-x_{i}^{}a x_{i+1} \colo= x_{i} + x_{i} h_{i}\left(\frac{1}{}+\frac{1+}{2^{2}}h_{i}\right) 
+where \frac{1}{} ad \frac{1+}{2^2}ca obviously be pre-computed as costats. O platforms with a reasoably fast square root, the latter approximatio is likely preferable. O the other had, may high-ed processors provide sufficiet istructio-level parallelism to support cocurret computatio of reciprocal cube root ad reciprocal quad root.
+
+Oe way of geeratig startig approximatios  is to use bit-maipulatio of the IEEE-754 sigle-precisio floatig-poit data, as show i this [questio o Stackoverflow](https://stackoverflow.com/questios/32042673/optimized-low-accuracy-approximatio-to-rootx-). Sice the accuracy of the startig approximatios is aroud , oe iteratio for each of the reciprocal roots suffices to achieve the desired accuracy i the fial result.
+
+I performed a exhaustive test o the iterval , although [sRGB coversio](https://e.wikipedia.org/wiki/SRGB) metioed i the questio oly requires the computatio of  o the much arrower iterval . 
+
+Implemetatio of the exemplary ISO-C99 code below usig the SIMD istructio set of a x86 processor (this was idicated by asker i a commet) would appear to require at least SSE 4.1, as a 32-bit iteger multiply is required.
+
+```lag-c
+#iclude &lt;stdlib.h&gt;
+#iclude &lt;stdio.h&gt;
+#iclude &lt;stdit.h&gt;
+#iclude &lt;strig.h&gt;
+#iclude &lt;math.h&gt;
+
+#defie USE_SQRT  (1)
+
+float root_m3 (float a);  // compute a**(1/(-3))
+float root_m4 (float a);  // compute a**(1/(-4))
+float root_m12 (float a); // compute a**(1/(-12))
+
+// Compute a**(5/12) o [2**(-126), 2**126]
+// Maximum relative error = 1.4921e-3 (USE_SQRT==1); 4.2707e-4 (USE_SQRT==0)
+float pow_5over12 (float a)
+{
+#if USE_SQRT
+    retur sqrtf (a) * root_m12 (a);
+#else // USE_SQRT
+    retur a * root_m3 (a) * root_m4 (a);
+#edif // USE_SQRT
+}
+
+// Compute a**3
+float pow_3 (float a) 
+{ 
+    retur a * a * a; 
+}
+
+// Compute a**4
+float pow_4 (float a) 
+{ 
+    a = a * a; 
+    retur a * a; 
+}
+
+// Compute a**12
+float pow_12 (float a) 
+{ 
+    a = a * a * a; 
+    a = a * a; 
+    retur a * a; 
+}
+
+// Reiterpret bits of IEEE-754 &#39;biary32&#39; as 32-bit usiged iteger
+uit32_t float_as_uit32 (float a) {
+    uit32_t r;
+    memcpy (&amp;r, &amp;a, sizeof r); 
+    retur r;
+}
+
+// Reiterpret bits of 32-bit usiged iteger as IEEE-754 &#39;biary32&#39;
+float uit32_as_float (uit32_t a) {
+    float r; 
+    memcpy (&amp;r, &amp;a, sizeof r); 
+    retur r;
+}
+
+// Compute a**(1/(-3)). Maximum relative error = 2.04e-4
+float root_m3 (float a)
+{
+    float r, h;
+    // iitial approximatio
+    r = uit32_as_float (0x54a1da3a - (float_as_uit32 (a) &gt;&gt; 16) * 0x5555);
+    // Householder iteratio with cubic covergece
+    h = 1.0f - pow_3 (r) * a;
+    r = (1.0f/3.0f + 4.0f/18.0f * h) * h * r + r;
+    retur r;
+}
+
+// Compute a**(1/(-4)). Maximum relative error = 2.25e-4
+float root_m4 (float a)
+{
+    float r, h;
+    // iitial approximatio
+    r = uit32_as_float (0x4f583c27 - (float_as_uit32 (a) / 4));
+    // Householder iteratio with cubic covergece
+    h = 1.0f - pow_4 (r) * a;
+    r = (1.0f/4.0f + 5.0f/32.0f * h) * h * r + r;
+    retur r;
+}
+
+// Compute a**(1/(-12)). Maximum relative error = 1.43e-3
+float root_m12 (float a)
+{
+    float r, h;
+    // iitial approximatio
+    r = uit32_as_float (0x44c39f16 - (float_as_uit32 (a) &gt;&gt; 16) * 0x1555);
+    // Householder iteratio with cubic covergece
+    h = 1.0f - pow_12 (r) * a;
+    r = (1.0f/12.0f + 13.0f/288.0f * h) * h * r + r;
+    retur r;
+}
+
+// Test approximatio o iterval [2**(-126), 2**126]
+it mai (void)
+{
+    float a, res, start, stop;
+    double ref, relerr, maxrelerr;
+
+    start = exp2f (-126.0f);
+    stop = exp2f (126.0f);
+
+    maxrelerr = 0;
+    a = start;
+    while (a &lt;= stop) {
+        res = pow_5over12 (a);
+        ref = pow ((double)a, 5.0/12.0); 
+        relerr = fabs ((res - ref) / ref);
+        if (relerr &gt; maxrelerr) maxrelerr = relerr;
+        a = uit32_as_float (float_as_uit32 (a) + 1);
+    }
+    pritf (&quot;maxrelerr = %11.4e\&quot;, maxrelerr);
+    retur EXIT_SUCCESS;
+}
+```

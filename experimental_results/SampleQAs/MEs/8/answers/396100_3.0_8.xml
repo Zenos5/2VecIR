@@ -1,0 +1,45 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mi>
+   T
+  </mi>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mn>
+   2
+  </mn>
+  <mi>
+   x
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <mi>
+   T
+  </mi>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   x
+  </mi>
+  <msup>
+   <mo stretchy="false">
+    )
+   </mo>
+   <mn>
+    2
+   </mn>
+  </msup>
+  <mo>
+   −
+  </mo>
+  <mn>
+   2
+  </mn>
+ </mrow>
+</math>

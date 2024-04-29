@@ -1,0 +1,48 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mo stretchy="false">
+   (
+  </mo>
+  <msqrt>
+   <mrow>
+    <mn>
+     2
+    </mn>
+   </mrow>
+  </msqrt>
+  <mo>
+   /
+  </mo>
+  <mn>
+   2
+  </mn>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <msub>
+   <mi>
+    e
+   </mi>
+   <mn>
+    1
+   </mn>
+  </msub>
+  <mi>
+   ±
+  </mi>
+  <msub>
+   <mi>
+    e
+   </mi>
+   <mn>
+    2
+   </mn>
+  </msub>
+  <mo stretchy="false">
+   )
+  </mo>
+ </mrow>
+</math>

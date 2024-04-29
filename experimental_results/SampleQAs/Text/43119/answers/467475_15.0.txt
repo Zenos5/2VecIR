@@ -1,0 +1,5 @@
+From the world of real things...
+
+Prime number are used in developing machine tools.  Utilizing primes you can avoid setting up harmonics which &quot;eat&quot; your very expensive tools.  Tools chatter, (bounce up and down), as they are being used.  Allowing those vibrations to propagate intensifying the chatter and the wear.
+
+You ever wonder how the metal racks in a microwave get designed?  Again they use primes to assure that there are no harmonic possibilities, and you don&#39;t get the light show you would on an older microwave.

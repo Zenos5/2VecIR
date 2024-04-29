@@ -1,0 +1,26 @@
+We have,
+\begin{align*}
+L(\theta) &amp;= -\frac{1}{m}\sum\limits_{i=1}^{m}{y_i. log P(y_i|x_i,\theta)  + (1-y_i). \log{(1 - P(y_i|x_i,\theta))}} \\
+h_\theta(x_i) &amp;= P(y_i|x_i,\theta) = P(y_i=1|x_i,\theta) = \frac{1}{1+\exp{\left(-\sum\limits_k \theta_k x_i^k \right)}}
+\end{align*}
+
+Then,
+\begin{align*}
+\log{(P(y_i|x_i,\theta))}=\log{(P(y_i=1|x_i,\theta))} &amp;=-\log{\left(1+\exp{\left(-\sum\limits_k \theta_k x_i^k \right)} \right)} \\
+\Rightarrow \frac{\partial }{\partial \theta_j} log P(y_i|x_i,\theta) =\frac{x_i^j.\exp{\left(-\sum\limits_k \theta_k x_i^k\right)}}{1+\exp{\left(-\sum\limits_k \theta_k x_i^k\right)}} &amp;= x_i^j.\left(1-P(y_i|x_i,\theta)\right) \end{align*}
+and
+\begin{align*}
+\log{(1-P(y_i|x_i,\theta))}=\log{(1-P(y_i=1|x_i,\theta))} &amp;=-\sum\limits_k \theta_k x_i^k -\log{\left(1+\exp{\left(-\sum\limits_k \theta_k x_i^k \right)} \right)} \\
+\Rightarrow \frac{\partial }{\partial \theta_j} \log{(1 - P(y_i|x_i,\theta))} &amp;= -x_i^j + x_i^j.\left(1-P(y_i|x_i,\theta)\right) = -x_i^j.P(y_i|x_i,\theta) \\ 
+\end{align*}
+
+Hence,
+
+\begin{align*}
+\frac{\partial }{\partial \theta_j} L(\theta) &amp;= -\frac{1}{m}\sum\limits_{i=1}^{m}{y_i.\frac{\partial }{\partial \theta_j} log P(y_i|x_i,\theta)   + (1-y_i).\frac{\partial }{\partial \theta_j} \log{(1 - P(y_i|x_i,\theta))}} \\
+&amp;=-\frac{1}{m}\sum\limits_{i=1}^{m}{y_i.x_i^j.\left(1-P(y_i|x_i,\theta)\right) - (1-y_i).x_i^j.P(y_i|x_i,\theta)} \\
+&amp;=-\frac{1}{m}\sum\limits_{i=1}^{m}{y_i.x_i^j - x_i^j.P(y_i|x_i,\theta)} \\
+&amp;=\frac{1}{m}\sum\limits_{i=1}^{m}{(P(y_i|x_i,\theta)-y_i).x_i^j}
+\end{align*} (Proved)
+
+

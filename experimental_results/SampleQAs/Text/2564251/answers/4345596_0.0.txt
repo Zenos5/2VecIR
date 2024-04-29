@@ -1,0 +1,2 @@
+
+\int \frac{\sin x \cos x}{\sin ^{4} x+\cos ^{4} x} d x=\int \frac{\frac{\sin 2 x}{2}}{1-\frac{\sin ^{2} 2 x}{2}} d x =\int \frac{\sin 2 x}{2-\sin ^{2} 2 x} d x =-\frac{1}{2} \int \frac{d(\cos (2 x))}{1+\cos ^{2}(2 x)} \\\boxed{=-\frac{1}{2} \arctan (\cos 2 x)+C}

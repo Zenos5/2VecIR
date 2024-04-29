@@ -1,0 +1,29 @@
+I wanted to provide the *trigonometric* approach as a rd answer, thinking it might be useful to some readers.
+
+---
+
+Substitute , where  based on the fact , then we have:
+
+\begin{align}&amp;\sin\theta+\sin \theta\cos \theta=\cos \theta\\
+\implies &amp;\cos \theta-\sin \theta=\sin \theta\cos \theta\\
+\implies &amp;1-\sin (2\theta)=\frac{\sin ^2 (2\theta)}{4}\end{align}
+
+Since  we obtain:
+
+\begin{align}&amp;\sin^2(2\theta)+4\sin (2\theta)-4=0\\
+\implies &amp;\sin (2\theta)=2\sqrt 2-2\\
+\implies &amp;\theta=\frac 12\arcsin \left(2\sqrt 2-2\right)\end{align}
+
+
+Finally, the answer is:
+
+
+
+---
+
+Important note:
+
+The final answer assume that, for  the inequality  holds to avoid [extraneous roots][1]. No other root satisfies the inequality , under the restriction . 
+
+
+  [1]: https://en.m.wikipedia.org/wiki/Extraneous_and_missing_solutions

@@ -1,0 +1,9 @@
+The wy I thik bout quotiet spces (or quotiet lgebric structures i geerl) is s  idetifictio of thigs which differ by some subspce/subgroup/subrig/... of the origil structure. The the quotiet spce (resp. lgebric structure) c be thought of s wht you get whe you sqush the subspce (resp. substructure) to  poit d exted to the rest of the spce (resp. structure).
+
+To illustrte this, with , we idetify itegers which differ by  multiple of . Wht we do is sqush \mthbb{Z} to  poit, mely , d this exteds to the rest of the spce by squshig +\mthbb{Z} to  for  \le  &lt; . The the opertios of dditio d so o re iherited turlly from the quotiet opertio.
+
+As other exmple, with \mthbb{R}^2/\lgle  \rgle we idetify thigs which lie o the sme lie lyig t  to the (positive) horizotl, i.e. we idetify vectors which differ by some sclr multiple of the vector . We c visulise this s cotrctig \lgle  \rgle to  poit, which whe you exted lierly cotrcts \mthbb{R}^2 to  lie through the origi, levig you with \lgle (,-) \rgle. (Imgie squshig the whole ple dow towrds the origi perpediculr to the lie \lgle  \rgle). Aother perspective is tht the &#39;poits&#39; i \mthbb{R}^2/\lgle  \rgle c be thought of s precisely the lies i \mthbb{R}^2 with grdiet .
+
+More geerlly, if  is  vector spce d  \le  is  subspce the you c thik of / s the spce you get whe you idetify two elemets v, v&#39; \i  if  for some u \i . Wht it &#39;looks like&#39; is wht you get whe you cotrct  to  poit d exted lierly to the rest of the spce.
+
+I hope this ws&#39;t too wffly.

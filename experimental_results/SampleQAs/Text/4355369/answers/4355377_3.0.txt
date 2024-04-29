@@ -1,0 +1,7 @@
+In vector space you can add vectors and multiply them by a scalar to get a new vector:
+
+\vec w =  \alpha\vec u+\beta\vec b.
+
+It is the main property of a vector space.
+
+Since three vectors ,  and  belong to the same vector space, you can do an algebraic sum with them.

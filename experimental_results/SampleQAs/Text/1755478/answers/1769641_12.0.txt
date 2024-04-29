@@ -1,0 +1,12 @@
+One can prove this theorem by use of the fact that the matrix representation of all linear map on a complex vector space, is [riangularisable](https://enwikipediaorg/wiki/riangular_matrix#riangularisability) with respect to a basis 
+  
+So if  be a linear map there are  st   
+(v_1)=\lambda_1 v_1 
+(v_2)=a_{11} v_1+\lambda_2 v_2 
+
+
+ 
+(v_n)=a_{n1}v_1+a_{n2}v_2++\lambda_n v_n    
+
+And by computation we can find that the matrix S=(-\lambda_1)(-\lambda_2)(-\lambda_n) vanishes all , and so   
+For more details you can see Herstein&#39;s *opics in Algebra*

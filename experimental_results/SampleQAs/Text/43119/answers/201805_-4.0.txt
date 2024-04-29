@@ -1,0 +1,1 @@
+Prime numbers are used in public key cryptography. It is used because you generally don&#39;t think of the really big prime numbers, so it is great for codes and to keep things safe. 

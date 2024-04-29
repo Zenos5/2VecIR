@@ -1,0 +1,11 @@
+Also you ca use the &lt;a href=&quot;http://e.wikipedia.org/wiki/Fiboacci_umber#Matrix_form&quot;&gt;matrix equatio&lt;/a&gt; for Fiboacci umbers:
+
+
+  \begi{pmatrix}1&amp;1\\1&amp;0\ed{pmatrix}^
+  =
+  \begi{pmatrix}F_{+1}&amp;F_{}\\F_{}&amp;F_{-1}\ed{pmatrix}
+
+To calculate -th power of the matrix you ca use &lt;a href=&quot;http://e.wikipedia.org/wiki/Expoetiatio_by_squarig&quot;&gt;
+expoetiatio by squarig algorithm&lt;/a&gt;.
+
+This approach could also be geeralized o the case of arbitrary sequece with liear recurrece relatio.

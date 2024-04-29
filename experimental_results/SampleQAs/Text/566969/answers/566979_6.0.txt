@@ -1,0 +1,10 @@
+**Edit:** Andreas Caranti have pointed out, this proof work iff the all the elements of the group have finite order. So it doesn&#39;t answer completely but
+is more a partial result.
+
+Let  then by hypothesis we have that there&#39;s  such that  then 
+a^{-1}^a=a^{-1}(ab)^a=a^{-1}ababa=baba=(ba)^=(ab)^=^
+So  for all .
+
+So we get the quotient  in which all the elements have order two.
+
+If there&#39;s an  \setminus Z() then  should have order , and by properties of homomorphisms of groups the order of  should be divided by . That&#39;s absurd since by hypothesis  can&#39;t have elements of order  hence it can&#39;t have either elements which have order a multiple of .

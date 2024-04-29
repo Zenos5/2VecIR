@@ -1,0 +1,8 @@
+Thought I&#39;d mention an application (or more like an explicit effect, rather than a direct application) that prime numbers have on computing fast Fourier transforms (FFTs), which are of fundamental use to many fields (e.g. signal processing, electrical engineering, computer vision).
+
+It turns out that most algorithms for computing FFTs go fastest on inputs of power-of-two size and slowest on those of prime size. This effect is not small; in fact, it is often recommended, when memory is not an issue compared to time, to pad one&#39;s input to a power of 2 (*increasing* the input size to earn a speedup). 
+
+Papers on this have been written: e.g. see *Discrete Fourier transforms when the number of data samples is prime* by Rader.
+And github issues like [this](https://github.com/numpy/numpy/issues/1104) suggest it is still an issue.
+
+Very specific algorithms (e.g. see [this one](https://en.wikipedia.org/wiki/Prime-factor_FFT_algorithm) using the Chinese remainder theorem for cases where the size is a product of relative primes) have been developed that, in my opinion, constitute some relevancy of primality to these applications. 

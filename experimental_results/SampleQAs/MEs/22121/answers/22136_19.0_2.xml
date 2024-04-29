@@ -1,0 +1,36 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mspace width="2em">
+  </mspace>
+  <mi mathvariant="normal">
+   d
+  </mi>
+  <mtext>
+  </mtext>
+  <mo stretchy="false">
+   |
+  </mo>
+  <mtext>
+  </mtext>
+  <msup>
+   <mi mathvariant="normal">
+    n
+   </mi>
+   <mi mathvariant="normal">
+    k
+   </mi>
+  </msup>
+  <mspace width="negativethinmathspace">
+  </mspace>
+  <mo>
+   −
+  </mo>
+  <mspace width="negativethinmathspace">
+  </mspace>
+  <mi mathvariant="normal">
+   n
+  </mi>
+  <mtext>
+  </mtext>
+ </mrow>
+</math>

@@ -1,0 +1,6 @@
+Suppose tht  is  group tht there exists no element  such tht . Moreover, for every , \in  we hve . Prove tht  is Aelin.
+
+
+Well, I ttempted to prove tht  ecuse then if I could prove it tht would imply  which is the sme s . In other words I wnted to show the order of  is two for every  nd  in . I spent lmost n hour trying to show tht y nything tht cme to my mind. I tried to rute force the prolem y writing ny possile eqution tht I could come up with ut I filed :/
+
+Any ides?

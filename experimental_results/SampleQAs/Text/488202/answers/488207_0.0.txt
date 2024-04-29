@@ -1,0 +1,5 @@
+Hint: If , then the unique element  of  would necessarily be normal. Let  be of order . Then, by the normality of , we know that \langle x\rangle \leqslant . But,
+
+|\langle x\rangle |=\frac{|\langle x\rangle|||}{|\cap\langle x\rangle|}=\frac{\cdot 3}{1}=6
+
+What&#39;s that famous property of ? :)

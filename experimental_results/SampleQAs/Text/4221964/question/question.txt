@@ -1,0 +1,11 @@
+I was doing this math and I found myself dealing with this equation:
+
+
+
+Now, square rooting both sides we get,
+
+ or,
+
+
+
+Now, (ii) gives us a reasonable root, which is . However, (i) gives us a weird result, which is . Why do I get this weird result by square rooting both sides? 

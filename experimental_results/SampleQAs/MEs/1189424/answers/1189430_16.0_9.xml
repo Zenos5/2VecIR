@@ -1,0 +1,146 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mrow>
+   <mi mathvariant="bold">
+    P
+   </mi>
+   <mi mathvariant="bold">
+    r
+   </mi>
+   <mi mathvariant="bold">
+    o
+   </mi>
+   <mi mathvariant="bold">
+    o
+   </mi>
+   <mi mathvariant="bold">
+    f
+   </mi>
+  </mrow>
+  <mspace width="1em">
+  </mspace>
+  <mtext>
+  </mtext>
+  <mi>
+   d
+  </mi>
+  <mo>
+   ∣
+  </mo>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mn>
+    1
+   </mn>
+  </msub>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   …
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mi>
+    n
+   </mi>
+  </msub>
+  <mo>
+   ⇒
+  </mo>
+  <mspace width="0.167em">
+  </mspace>
+  <mi>
+   d
+  </mi>
+  <mo>
+   ∣
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mn>
+    1
+   </mn>
+  </msub>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   …
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mi>
+    n
+   </mi>
+  </msub>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <msub>
+   <mi>
+    j
+   </mi>
+   <mn>
+    1
+   </mn>
+  </msub>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mn>
+    1
+   </mn>
+  </msub>
+  <mspace width="negativethinmathspace">
+  </mspace>
+  <mo>
+   +
+  </mo>
+  <mi>
+   …
+  </mi>
+  <mo>
+   +
+  </mo>
+  <msub>
+   <mi>
+    j
+   </mi>
+   <mi>
+    n
+   </mi>
+  </msub>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mi>
+    n
+   </mi>
+  </msub>
+  <mspace width="0.167em">
+  </mspace>
+ </mrow>
+</math>

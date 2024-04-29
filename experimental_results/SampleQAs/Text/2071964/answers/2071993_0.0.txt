@@ -1,0 +1,4 @@
+if all eigenvalues are distinct, then AB is a diagonal (with  the  correct ordering and normalization)
+
+Let , 
+, so the right and left eqgenvectors with the distinct eigenvalues are orthogonal

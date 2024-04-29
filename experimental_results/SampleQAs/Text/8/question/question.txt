@@ -1,0 +1,3 @@
+I was reading up on the Fibonacci Sequence,  when I noticed some were able to calculate specific numbers. So far I&#39;ve only figured out creating an array and counting to the value, which is incredibly simple, but I reckon I can&#39;t find any formula for calculating a Fibonacci number based on it&#39;s position.
+
+Is there a way to do this? If so, how are we able to apply these formulas to arrays?

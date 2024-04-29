@@ -1,0 +1,3 @@
+At least one version of this question has a nearly-trivial answer; if you want to know if there&#39;s some statement G such that ZFC (or your PA-compatible logic system of choice) doesn&#39;t prove G, ZFC doesn&#39;t prove ~G, and we can&#39;t prove that ZFC doesn&#39;t prove G or not G, then any undecideable statement works!
+
+Specifically, it&#39;s impossible for ZFC to prove that it can&#39;t prove something, because such a statement is tantamount to the consistency of ZFC; if ZFC were inconsistent then it could prove everything, so proving that there&#39;s something that can&#39;t be proved is equivalent to proving the consistency of ZFC, and of course this is forbidden by the second incompleteness theorem.

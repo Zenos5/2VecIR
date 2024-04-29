@@ -1,0 +1,20 @@
+Yes indeed modern cryptography is a useful branch which requires extensive use of prime numbers. A real world application to them would be how we use large primes in order for us to be able to encode information that is sent wirelessly when making transactions on our debit cards, credit cards, computers,etc in order to keep our information safe. Now when I say real world I don&#39;t mean the physical world. Primes numbers use is only in the computer world, in which we use computers in our physical world; if that makes any sense at all. Primes number had little use until about the 19th century, when mathematicians experimented with them in hopes to uncover some breakthrough with their use. When the times of the war came around, the U.S. defense needed a way of secrecy of all high class confidential information, so files and messages all needed to be encoded, so that enemy lines could not retrieve vital information of plans and routines. Encryption was used, and to make the process of using primes numbers to encode information, computers came into play to create more complex and longer codes that would be much harder to crack by anyone. Primes can also be used in pseudorandom number generators and computer hash tables. There are some biological instances in which primes are used  to help in predicting the predator-prey model for a special type of insect to have a higher survival rate which are &quot;Cicada&quot;. Something else would be public-key encryption, formally known as RSA.  
+
+There are many types of classifications of prime numbers, but the main two are Fermat primes and Mersenne primes.
+
+Have a look at this video here from Terence Tao. 
+[Structure and Randomness in Prime Numbers][1]
+
+Articles Here:
+
+[Treatment on  Primes][2], They are the very top 9 links by Terry Tao and  others.
+
+
+[Powerpoint Link in First Paragraph][3]
+
+
+
+
+  [1]: http://www.jokeroo.com/videos/yt/q4h-terence-tao-structure-and-randomness-in-the-prime-numbers-ucla.html
+  [2]: http://www.math.ucla.edu/~tao/preprints/acnt.html
+  [3]: http://terrytao.wordpress.com/2008/02/07/structure-and-randomness-in-the-prime-numbers/

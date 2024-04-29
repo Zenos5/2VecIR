@@ -1,0 +1,6 @@
+Consider , perhaps starting with a square root and approximating the ratio is easier. Or just use approximations for the logarithm and exponential. Those functions are directly implemented in hardware nowadays, and quite cheap. Or select judiciously some points and interpolate. Or approximate through splines. The magic [fast inverse square root][1] algorithm (really, its justification) might also give some ideas.
+
+Just make sure this operation is really relevant performance wise before going down this path.
+
+
+  [1]: http://en.wikipedia.org/wiki/Fast_inverse_square_root

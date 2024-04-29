@@ -1,0 +1,29 @@
+See also stacoverflow [optiizations-for-pow-with-const-non-integer-exponent][] for other approaches to the sae proble.
+
+If you loo at your graph of  its obviously got a different shape near , than near . This is a good hint that siple polynoials wont fit so well over a doain including both  and .
+
+So I would consider a strength reduction:
+
+consider that in floating point representation  where .5 \le  &lt; 
+so  = ^{5/2} \cdot 2^{5/2}
+
+    MiniMaxApproxiation[x^(5/2), {x, {/2, }, 2, 2}]
+Offers a rational O(2,2) polynonial with a relative error less than 5.7\ties^{-7} for  on \left[\frac2,\right]. 
+
+For the second part of the strength reduction you can either use Power\left[2,\frac {5}{2}\right] or, since  is an integer, optiise it with a 2 eleent looup table and soe odulo arithetic.
+
+Noting that, on ost achines, division is very slow (and not good for nuerical accuracy) I also considered siple polynoials and
+
+    MiniMaxApproxiation[x^(5/2), {x, {/2, }, 7, }]
+Offers an O(7) polynoial with a relative error less than 2.4\ties^{-8} or better than half an [ULP][2] in single precision. Which should be about the sae speed as the O(2,2). For copleteness, here it is in [Horner For][3] 
+
+    .246873 + 
+       x (F954 + 
+         x (-2.774 + 
+            x (3.86663 + 
+              x (-3.8526 + x (2.47365 + (-.99353 + .56 x) x)))))
+
+
+  []: https://stacoverflow.co/questions/6475373/optiizations-for-pow-with-const-non-integer-exponent/
+  [2]: http://en.wiipedia.org/wii/Unit_in_the_last_place
+  [3]: http://en.wiipedia.org/wii/Horner%27s_ethod

@@ -1,0 +1,16 @@
+I am going over the lectures on Machine Learning at Coursera. 
+
+I am struggling with the following. How can the partial derivative of 
+
+J()=-\frac{1}{m}\sum_{i=1}^{m}y^{i}\log(h_(x^{i}))+(1-y^{i})\log(1-h_(x^{i}))
+
+where  is defined as follows
+
+=g(^{T}x)
+
+
+be  \frac{\partial}{\partial_{j}}J() =\frac{1}{m}\sum_{i=1}^{m}(h_(x^{i})-y^i)x_j^i
+
+In other words, how would we go about calculating the partial derivative with respect to  of the cost function (the logs are natural logarithms):
+
+J()=-\frac{1}{m}\sum_{i=1}^{m}y^{i}\log(h_(x^{i}))+(1-y^{i})\log(1-h_(x^{i}))

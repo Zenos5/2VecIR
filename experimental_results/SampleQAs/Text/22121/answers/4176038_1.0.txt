@@ -1,0 +1,11 @@
+Just to give a differet approach, we have
+
+\begi{alig}
+^-&amp;=(^6-1)\\
+&amp;=(^-1)(^+1)\\
+&amp;=(-1)(^++1)(+1)(^-+1)\\
+&amp;=(-1)(+1)(^+-6+)(^--6+)\\
+&amp;=(-1)(+1)\Big((-)(+)(+)(-)+\cdot\text{quadratic i }\Big)
+\ed{alig}
+
+where the quadratic i , to be explicit, is (^-6)+.  What&#9;s importat, though, is that (-1), beig the product of two cosecutive itegers, is always divisible by , (-1)(+1), beig the product of three cosecutive itegers, is always divisible by , ad (-1)(+1)(-)(+)(+)(-), beig the product of seve cosecutive umbers, is always divisible by .

@@ -1,0 +1,20 @@
+\begin{aligned}
+I&amp;=_^1\frac{\ln(1+x-x^2)}x\mathrm{d}x\\
+&amp;\overset{(1)}{=}_^1_{n=1}^\infty\frac{(-1)^{}(x-x^2)^n}{nx}\mathrm{d}x\\
+&amp;\overset{(2)}{=}_{n=1}^\infty\frac{(-1)^{}}n_^1x^{}(1-x)^n\mathrm{d}x\\
+&amp;\overset{(3)}{=}_{n=1}^\infty\frac{(-1)^{}}n\frac{()!n!}{(2n)!}\\
+&amp;=_{n=}^\infty\frac{(-1)^{n}(n!)^2}{(2n+2)!}\\
+&amp;=_{n=}^\infty\frac{(-1)^{n}(1\times2\times\cdots\times n)(1\times2\times\cdots\times n)}{1\times2\times\cdots\times (2n+2)}\\
+&amp;=_{n=}^\infty\frac{(-1)^{n}(1\times2\times\cdots\times n)}{1\times3\times5\times\cdots\times(2n+1)\times (2n+2)2^n}\\
+&amp;=_{n=}^\infty\frac{(-1)^nn!}{(2n+1)!!(2n+2)2^n}
+\end{aligned}
+__Explanation__  
+(1) Using the Maclaurin series of , where .  
+(2) It is legal to change the position of  and .  
+(3) Integrate by parts  times.  
+[Notice that](https://math.stackexchange.com/questions/534736/evaluate-this-power-series) _{n=}^\infty\frac{(2n)!!}{(2n+1)!!}x^{2n+1}=\frac{\arcsin x}{\sqrt{1-x^2}},
+integrate both sides from , we have _{n=}^\infty\frac{(2n)!!}{(2n+1)!!(2n+2)}x^{2n+2}=\frac12\arcsin^2x.
+Letting  leads to
+_{n=}^\infty\frac{(-1)^{n+1}(2n)!!}{(2n+1)!!(2n+2)}2^{-2n-2}=\frac12\arcsin^2\frac i2.
+Combining with , we have 
+or  where  denotes the golden ratio.

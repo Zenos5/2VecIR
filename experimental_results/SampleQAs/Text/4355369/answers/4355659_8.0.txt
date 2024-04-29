@@ -1,0 +1,21 @@
+If I need  apples and  oranges for some recipe I want to prepare, it would be perfectly fine for me to write
+
+  ~\text{apples} + ~\text{oranges}
+
+on my shopping list. However, it would not be fine to write
+
+  ~\text{apples and/or oranges}
+
+because I might end up with  apples and  orange, unable to prepare my meal.
+
+So when we say that you can only add “alike” quantities, we mean that you can only simplify “ of something plus  of something” to “ of something” if all the somethings are the same.
+
+The same applies to your vectors:
+
+  a\hat{\imath} + b\hat{\jmath } + c\hat{k}
+
+is fine, but we can’t simplify this to
+
+  (a + b + c) 
+
+(I don’t even know what you might use for ). In this case, we do introduce new notation, though, and also allow writing the result as . This is fine because we can still extract each component from this result.

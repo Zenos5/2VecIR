@@ -1,0 +1,34 @@
+Problems like this aear frequetly here. There are a coule of stadard aroaches. Oe is to use [Fermat&#39;s little theorem][1], which says that if  is a rime umber, the ^- is divisible by  for all .
+
+Sice , what we eed to do is to check that 2, 3, ad 7 divide ^7-, o matter what  is. 
+
+That 7 does is direct from Fermat&#39;s little theorem. 
+
+The theorem also esures that 3 divides ^3-. Now: ^7-=(^6-1)=((^2)^3-1)=(^2-1)(^4+^2+1)=(^3-)(^4+^2+1), so 3 ideed divides ^7-. 
+
+Fially,  ad ^7 always have the same arity, so ^7- is eve.
+
+
+----------
+
+
+We ca actually argue without Fermat&#39;s little theorem i this case. A aroach that oly requires atiece is as follows: The idea is to factor the olyomial  ad the aalyze the result whe x= is a iteger. (This is a trick that Bill Dubuque suggests sometimes i his solutios.)
+
+We have: =x(x^6-1)=x(x^3+1)(x^3-1)=x(x+1)(x^2-x+1)(x-1)(x^2+x+1). Whe x=, we have
+ ^7-=(-1)(+1)(^2-+1)(^2++1). 
+Now we aalyze this rime by rime, as before. Note that oe of  ad -1 is always eve, so the roduct is eve. Also, of 3 cosecutive umbers, such as -1,,+1, oe is always divisible by 3, so it oly remais to verify divisibility by 7.
+
+We may assume that =7k+b where b=\m2 or \m3, sice otherwise (-1)(+1) is a multile of 7. I that case, ^2\equiv 4 or 2\mod 7, ad oe of ^2+, ^2- is \equiv 6\mod 7, so (^2-+1)(^2++1) is a multile of 7. 
+
+The disadvatage of this aroach over the revious oe, of course, is the eed to aalyze differet cases. Fermat&#39;s little theorem allows us to aalyze all cases simultaeously, which tyically (as here) results i a much faster aroach.
+
+----------
+
+If you are comfortable with the method of iductio, this gives us a way of verifyig divisibility by 7 which is ot without some elegace (divisibility by 2 ad 3 is robably best aroached as before). Note that (-)^7-(-)=-(^7-), so we may as well assume that \ge 0. If =0 it is obvious that 7 divides ^7-. 
+
+Suose the that 7|^7-, ad argue that 7|(+1)^7-(+1). For this, actually exad (+1)^7 usig the biomial theorem:  (+1)^7=^7+7^6+{7\choose 2}^5+{7\choose 3}^4+\dots+1. The oit is that  is obviously divisible by 7 as log as k\e0,7, so (modulo 7) we have that (+1)^7-(+1)\equiv (^7+1)-(+1)=(^7-). Now we ivoke the iductio hyothesis, that recisely says that the latter is divisible by 7, ad we are doe. 
+
+Of course, exactly the same iductive argumet gives us a roof of Fermat&#39;s little theorem: |^- for ay  rime ad ay iteger .
+
+
+  [1]: htt://e.wikiedia.org/wiki/Fermat%27s_little_theorem

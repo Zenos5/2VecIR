@@ -1,0 +1,17 @@
+We are &quot;allowed&quot; to write vectors this way because, even we we pretend to forget that , , and  are not ordinary numbers, we still get the right answers when doing calculations. We only have to follow the rule that  + ,  + , and +  cannot be simplified.
+
+Some examples:
+
+Addition: (3 +  2 - 4) + (5 -  + 2) = (3 + 5) + (2-1) + (-4 + 2) = 8 +  + -2
+
+This works because vector addition is associative, commutative, and distributes with real numbers. We can use strategies learned years earlier like combining like terms to get the final answer.
+
+Dot product: (3 +  2) \cdot (5 - ) = (3)(5)\cdot + (3)(-1)\cdot + (2)(5)\cdot + (2)(-1)\cdot = (3)(5) + (2)(-1) = 13
+
+Here, we use the fact that \cdot = \cdot = 1 and \cdot = 0 to get our final answer. Otherwise, it&#39;s just the distributive property (the [FOIL method](https://en.wikipedia.org/wiki/FOIL_method) in many schools).
+
+I could do another example with the cross product, but that would be a lot of intermediate symbols coming from multiplying two three-term vector expressions. But, if you treat the cross product like ordinary multiplication and then simplify using the cross products of unit vectors, it would work. (This is called &quot;leave it as an exercise to the reader.&quot;)
+
+The purpose of any notation is to make concepts easier to think about, usually by reducing the number of rules we have to remember when doing calculations. Writing vectors as sums of simple vectors allows us to treat them like normal numbers and use the calculation rules that are much more familiar and ingrained in our minds. We only need to add a couple of rules for simple examples of the new kinds of quantities to finish the calculations.
+
+This is similar to complex numbers. Writing them as  makes it very easy to remember how to multiply them using FOIL/distributive methods learned much earlier in school. You don&#39;t need a new multiplication rule to figure out ()(c + di), only that . If complex numbers were only written as ordered pairs, then you would have to memorize the seemingly arbitrary rule: . Even here, I used the ()(c + di) notation to figure out the ordered pair notation because it&#39;s easier to think about, which is the purpose of notation.

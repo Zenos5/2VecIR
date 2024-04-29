@@ -1,0 +1,9 @@
+I needed to solve the exact same problem, and your diagram has given me the idea for what I think is the exact solution. This will work for varying radiuses, and can be simplified if all radiuses are equal, as in your case.
+
+1. First a special case. If the point is outside of all circles, we have a trivial solution.
+2. Find all the circles the point is inside. Calculate the closest point on their circumference (just move out from the original point along the radius).
+3. Find all the intersection points between pairs of circles.
+4. Combine the sets of points from steps 2 and 3, and filter these by finding the ones that are not covered by any other circle.
+5. Pick the closest point from the remaining set. Done!
+
+This seems to be O(n^3), so not terribly fast, but should be doable if your set is not too huge.

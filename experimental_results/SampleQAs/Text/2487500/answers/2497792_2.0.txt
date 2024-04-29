@@ -1,0 +1,5 @@
+There are multile ways to visualize grous ad they do&#39;t all work for all grous ad eve whe they do work they may ot work for the roblem you&#39;re workig o. The above aswers illustrate some of the variety: ermutatio grous, grous of symmetries, matrix grous are the thigs we start with.  
+
+Oe way to look at it is that grous have ersoalities. So it is a good idea to study, or to ut it better, become frieds with secific grous. Sometimes you ca get acuaited with whole families of grous at oe shot. Here are some iterestig families to cosider: cyclic grous, dihedral grous, fiite Abelia grous, grous of order  where  ad  are distict rimes, grous of order ^2, ^3, these get more comlicated as  grows. Grous of order 12 ad 16.  
+
+Whe you&#39;re gettig to kow a grou, there are some basic thigs you wat to fid out about it, What do its subgrou ad ormal subgrou lattices look like? What do its uotiet grous look like? Which sets of elemets are miimal sets of geerators. What is the ceter? As you lear more roerties of grous, you ca check which of your acuaitaces have the roerty ad which do ot. 

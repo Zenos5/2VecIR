@@ -1,0 +1,12 @@
+&gt; Integrate 
+
+
+I solved the question by using the identity  and the substitution , which turned it into a relatively familiar integral (see my answer below). 
+
+However, I&#39;m pretty sure there are easier ways I am missing, so please feel free to post alternative answers. 
+
+There is a similar question [here][1]. 
+
+  [1]: https://math.stackexchange.com/questions/820830/how-to-integrate-int-frac1-sin4x-cos4-x-dx
+
+Problem Source: James Stewart Calculus, 6E

@@ -1,0 +1,13 @@
+No. Let 
+
+ = \begin{bmatrix}  &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp;  &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 4 &amp; 2 \\
+0 &amp; 0 &amp; 0 &amp; 2
+\end{bmatrix}
+
+Then two right eigenvectors for  are e_ and , and two left eigenvectors for  are (\sqrt{2}/2) ( e_ \pm  ). When you put these into  and , the upper left corner of your product will not be the  identity.
+
+I have a bad feeling this question&#39;s about to be edited to add the hypothesis that the eigenvalues be distinct...
+
+When that happens, the answer will still be no, for if we permute the rows of  to form &#39; they&#39;ll still all be eigenvectors for , but the product  will undergo the same row permutation, so that even if  = I, we&#39;ll have &#39; \ne I. 

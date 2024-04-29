@@ -1,0 +1,15 @@
+Just thoughts on the fly:
+
+One way I came up with was to filter away some circles by boolean comparison, assuming multiplications take longer to compute (I almost never use square roots). This can be your first-stage filter, especially when the number of circles is huge.
+
+Besides, I think, in your case, the next step could be finding out whether you are in a circle, among possible circle candidates. 
+
+Then, if you are in a particular circle (or else the solution has arrived), figure out what the current circle&#39;s relation to others is. Take the nearest (to circle&#39;s center) circle as your base circle. Again, we can use boolean comparison to do the first filtering (I think an approximate bound for circles of interest would be any circles within diameter, i.e. the circles of interest should be at least touching your base circle), and then do distance calculation to figure out more exact relations. 
+
+This brings me to an interesting observation: If we can prove that two circles&#39; intersecting points (or a single point, since all circles not touching are excluded when filtering) do not live in a third circle, then we have a solution (on the other side by an infinitesimal delta).  In other words, if we have points A and B as two circles intersections, and A is in a third circle while B is not, extending the vector from A to B by a small delta will be your solution (I think it is optimal under if you start doing this check from the nearest circle to your point, instead of base circle&#39;s center).
+
+If both A and B are in a circle, then the arc AB is &#39;occupied&#39;, and we need to move on to, say clockwise go to the next circle. It may be better to start from a neighbor circle that is furthest to your base circle so that AB is smallest (some possibly simple math needs to be analytically derived to make the trade-off).
+
+The next stage is, if all of your base circle&#39;s arc sections are occupied, i.e. all circumference points are in another circle, I think you&#39;ll need to do the check for the next nearest circle to your point.
+
+I think at this stage some book-keeping will avoid double-computing.

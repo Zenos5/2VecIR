@@ -1,0 +1,1 @@
+**Proof:** Let  for positive integers ,, nd . Then d\mid , d\mid , nd d\mid . Hene, d\mid gd(,) nd d\mid  nd so d\mid gd(gd(,),). Thus,  where f=gd(e,) nd e=gd(,). Sine f=gd(e,), then  nd f\mid . Hene, f\mid , f\mid , nd f\mid , so f\mid gd(,,) whih mens . Sine  nd , .

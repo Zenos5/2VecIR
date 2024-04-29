@@ -1,0 +1,17 @@
+Let , then the coefficient of  in  is _____.
+
+My approach is as follow
+
+
+
+Let 
+
+Let the coefficient of  in  is zero
+
+Taking  
+
+
+
+Hence the coefficient of  in   is  hence 
+
+For  and  it is getting complicated hence any short cut or easy method to solve it

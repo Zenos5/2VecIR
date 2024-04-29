@@ -1,0 +1,7 @@
+You know the Queen song, [We Will Rock You][1]? How it has that stamp-stamp-clap-pause beat? According to [Wikipedia][2], 
+
+&quot;The stamping effects were created by the band overdubbing the sounds of themselves stomping and clapping many times and adding delay effects to create a sound like many people were participating. The durations of the delays were in the **ratios of prime numbers**, a technique now known as non-harmonic reverberation.&quot;
+
+
+  [1]: https://www.youtube.com/watch?v=-tJYN-eG1zkv
+  [2]: https://en.wikipedia.org/wiki/We_Will_Rock_You

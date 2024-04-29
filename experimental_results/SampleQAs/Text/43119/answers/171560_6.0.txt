@@ -1,0 +1,12 @@
+Like yourself, I got into primes since this was a common exercise program to do when learning new programming languages and it was interesting to see which language was faster on the same algorithm/error check plan.
+
+It was only when I was refining my Ada coded program to get the highest number of primes that I could get from a 32-bit machine that I came across the offset logarithmic integral.
+(I needed to reserve enough - but not too much - memory for my holding array for the primes. The array, of course, had to be declared prior to making any assignments to it. On a 1 GB memory 32-bit machine, I can get primes up to ~ 50 million before stack blows.)
+
+
+  
+
+This function represents the best approximation to the number of primes up to some number, x.
+
+All I&#39;m saying here is that this equation made me wonder about primes in the context of a number of other things that use related functions . . . 
+That led me on to thinking about entropy calculations, particularly about selecting compositions more likely to give rise to metastable crystal forms - possibly even glasses - than other compositions using the same constituent elements.

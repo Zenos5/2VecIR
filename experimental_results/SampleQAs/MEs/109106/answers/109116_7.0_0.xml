@@ -1,0 +1,62 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mi>
+   V
+  </mi>
+  <mo>
+   =
+  </mo>
+  <mrow>
+   <msup>
+    <mi mathvariant="double-struck">
+     R
+    </mi>
+    <mn mathvariant="double-struck">
+     2
+    </mn>
+   </msup>
+  </mrow>
+  <mo>
+   =
+  </mo>
+  <mo stretchy="false">
+   {
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   x
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   y
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mi>
+   :
+  </mi>
+  <mi>
+   x
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   y
+  </mi>
+  <mo>
+   ∈
+  </mo>
+  <mi>
+   ℝ
+  </mi>
+  <mo stretchy="false">
+   }
+  </mo>
+ </mrow>
+</math>

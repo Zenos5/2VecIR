@@ -1,0 +1,6 @@
+A few years ago I gave an &quot;ugly&quot; and long proof (more than 4 pages), which is purely computational.
+
+Basically, I took an  matrix , where  are variables. Then I wrote the characteristic polynomial as , where each  is an explicit polynomial in the variables . Then I wrote explicitly the  entries of each  with  as polynomials in the variables . Finally, I proved that each of the  entries of  is . It&#39;s just playing with sums of monomials and proving that all of them reduce in the end.
+
+You can find the proof in the 3-4/214 issue of Gazeta Matematica, Seria A, pages 32-36. Available online at this address:
+https://ssmr.ro/gazeta/gma/214/gma3-4-214-continut.pdf

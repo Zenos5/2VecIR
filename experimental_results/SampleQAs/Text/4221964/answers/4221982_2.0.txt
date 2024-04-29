@@ -1,0 +1,10 @@
+The &quot;weird&quot; result doesn&#39;t depend on the manipulation you did but on the original equation itself.
+
+Another way to solve it is by [zero-product property][1], that is:
+
+A^2-B^2=(A+B)()=0 \iff  \,\lor\, =0
+
+and in your equation the case  leds to no solution and we only keep the solution for the case .
+
+
+  [1]: https://en.wikipedia.org/wiki/Zero-product_property

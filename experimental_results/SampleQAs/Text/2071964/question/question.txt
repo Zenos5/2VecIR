@@ -1,0 +1,3 @@
+Let  be a nonsymmetric matrix; suppose the columns of matrix  are the right eigenvectors of  and the rows of matrix  are the left eigenvectors of . 
+
+In one of the answers to a https://math.stackexchange.com/questions/200370/question-on-left-and-right-eigenvectors/202272#202272 it was claimed that =I. Is that true, and how would you prove it?

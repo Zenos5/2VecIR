@@ -1,0 +1,5 @@
+nother  example is the adjoint of :
+
+ \operatorname{adj}()= \operatorname{adj}()  = \det()I
+
+(but for invertible matrices it is equal to the scalar \det() multipliying the inverse of , so is trivial that commutes. with ).

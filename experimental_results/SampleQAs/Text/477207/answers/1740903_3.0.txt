@@ -1,0 +1,7 @@
+Pedro,
+ =&gt; partial fractions
+
+
+
+
+ = \log(\frac{b-a}{b}) = \log(b-a) - \log(b)

@@ -1,0 +1,7 @@
+ square matrix  over a field  commutes with every -linear combination of non-negative powers of . That is, for every a_0,\dots,a_n\in ,
+
+\left(\sum_{k=0}^na_k^k\right)=\sum_{k=0}^na_k^{k+1}=\left(\sum_{k=0}^na_k^k\right)\;.
+
+This includes as special cases the identity and zero matrices of the same dimensions as  and of course  itself.
+
+**dded:** s was noted in the comments, this amounts to saying that  commutes with p() for every polynomial over . s was also noted, there are matrices that commute *only* with these.  simple example is the matrix =\pmatrix{1&amp;1\\0&amp;1}: it’s easily verified that the matrices that commute with  are precisely those of the form \pmatrix{a&amp;b\\0&amp;a}=b+(a-b)I=b^1+(a-b)^0\;. t the other extreme, a scalar multiple of an identity matrix commutes with all matrices of the same size.

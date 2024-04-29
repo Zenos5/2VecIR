@@ -1,0 +1,53 @@
+**Uniform usage of gears with relatively prime number of teeth**
+
+Straight [from Wikipedia](https://en.wikipedia.org/wiki/Prime_number):
+
+&gt; For a long time, number theory in general, and the study of prime numbers in particular, was seen as the canonical example of pure mathematics, with no applications outside of mathematics[b] other than the use of prime numbered gear teeth to distribute wear evenly. In particular, number theorists such as British mathematician G. H. Hardy prided themselves on doing work that had absolutely no military significance.
+
+[![enter image description here][1]][1]
+
+The small gear has 13 teeth the middle gear has 21, relatively prime to 13. [Image source](https://en.wikipedia.org/wiki/File:Gears_large.jpg).
+
+**Arecibo message image dimensions**
+
+The [Arecibo message](https://en.wikipedia.org/wiki/Arecibo_message) consisted of a rectangle with prime width and height.
+
+This guarantees that aliens can only interpret the image in 2 ways (modulo rotations and excluding a flat 1 x N image).
+
+For example, for a 2 x 3 x 5 image with 30 bits can be read as either of:
+
+     2 x 15
+     3 x 10
+     5 x  6
+     6 x  5
+    10 x  3
+    25 x  2
+
+But a similarly sized 3 x 11 image with 33 bits can only be read as:
+
+     3 x 11
+    11 x  3
+
+If that counts as &quot;real world&quot;, I leave up to you.
+
+A good visualization of why this is for kids is that you cannot make a rectangle out of a prime number, so there is only one possibility for each edge.
+
+[![enter image description here][2]][2]
+
+[Image source](https://en.wikipedia.org/wiki/File:Primes-vs-composites.svg).
+
+**Indicator of intelligent life in interstellar communications**
+
+Another application in the alien communication vein: in the [1980&#39;s documentary series Cosmos](https://en.wikipedia.org/wiki/Cosmos:_A_Personal_Voyage), Carl Sagan proposes that we use a signal like:
+
+    X XX XXX XXXXX XXXXXXX XXXXXXXXXXX
+
+with prime numbers length strings at the start of messages we send to aliens.
+
+The rationale is that this is likely to catch their attention, since there are no (?) natural processes that generate such a sequence, even though it is a sequence we expect alien mathematicians to immediately understand, and thus recognize as a sign of intelligence.
+
+So in this case, the lack of physical application of primes leads to their usefulness!
+
+
+  [1]: https://i.stack.imgur.com/pdK3I.jpg
+  [2]: https://i.stack.imgur.com/vAKZo.png

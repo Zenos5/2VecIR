@@ -1,0 +1,8 @@
+Prime numbers are often used to make puzzles. Specially series puzzles.
+For instance, I made this one few months ago:
+
+
+  [1]: http://
+https://math.stackexchange.com/q/2272836/442231
+
+It is OEIS-proof.

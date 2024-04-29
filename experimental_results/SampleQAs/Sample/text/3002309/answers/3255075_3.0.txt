@@ -1,0 +1,9 @@
+
+Averaging the two integrals from above  gives us:
+
+Where we considered, in order to apply Feynman&#39;s trick, the following integral:
+
+
+
+ 
+

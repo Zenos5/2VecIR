@@ -1,0 +1,1 @@
+If you are looking for a book in measure theory, you should certainly get a copy of the book of that title by Halmos. You may need a second book for details on stochastic processes, but for the underlying analysis it will be hard to find a more comprehensive book, or a better-regarded author. 

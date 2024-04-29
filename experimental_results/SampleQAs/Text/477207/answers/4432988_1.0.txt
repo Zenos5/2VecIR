@@ -1,0 +1,61 @@
+
+\def\o{{\tt1}}\def\p{\partial}\def\J{{\cal J}}
+\def\LR#1{\left(#1\right)}
+\def\BR#1{\Bigl(#1\Bigr)}
+\def\diag#1{\operatorname{diag}\LR{#1}}
+\def\diagb#1{\operatorname{diag}\BR{#1}}
+\def\Diag#1{\operatorname{Diag}\LR{#1}}
+\def\Diagb#1{\operatorname{Diag}\BR{#1}}
+\def\trace#1{\operatorname{Tr}\LR{#1}}
+\def\qiq{\quad\implies\quad}
+\def\qif{\quad\iff\quad}
+\def\grad#1#2{\frac{\p #1}{\p #2}}
+\def\fracLR#1#2{\LR{\frac{#1}{#2}}}
+(\theta\to w)\,
+and collect all of the  vectors into a matrix, i.e.
+\eqalign{
+X = {\tt[}x_1\;x_2\ldots\,x_m {\tt]} \\
+}
+What you have called  is actually the logistic function which has a [well-known][1] derivative
+
+When applied elementwise to the vector argument 
+it produces a vector result
+\eqalign{
+h &amp;= g(X^Tw) \\
+dh &amp;= \LR{\o-h}\odot h\odot d(X^Tw) \\
+  &amp;= \LR{\o-h}\odot h\odot (X^Tdw) \\
+}
+where  denotes the elementwise/Hadamard product.
+
+But a Hadamard product with a vector can be replaced by the standard product by using a diagonal matrix created from the vector. Therefore
+\eqalign{
+H &amp;= \Diag h &amp;\qif h = \diag H = H\o \\
+dh &amp;= \LR{I-H}HX^Tdw &amp;\qif
+\grad hw = \LR{I-H}HX^T \\
+}
+The cost function can now be expressed in a *purely* matrix form
+\eqalign{
+Y &amp;= \Diag y \\
+\J &amp;= -\fracLR 1m\BR{Y:\log(H)+(I-Y):\log(I-H)} \\
+}
+where  denotes the Frobenius inner product
+
+Since diagonal matrices are almost as easy to work with as scalars,
+it becomes a rather straightforward if tedious exercise to calculate
+the gradient
+\eqalign{
+d\J &amp;= -\fracLR 1m\BR{Y:d\log(H)+(I-Y)\,:\,d\log(I-H)} \\
+ &amp;= -\fracLR 1m\BR{Y:H^{-1}dH \;-\; (I-Y)\,:\,(I-H)^{-1}dH} \\
+ &amp;= -\fracLR 1m\BR{H^{-1}Y \;-\; (I-H)^{-1}(I-Y)}\,:\,\Diag{dh} \\
+ &amp;= -\fracLR 1m\diagb{H^{-1}Y \;-\; (I-H)^{-1}(I-Y)}\,:\,dh \\
+ &amp;= -\fracLR 1m\BR{H^{-1}Y \;-\; (I-H)^{-1}(I-Y)}\,\o\,:\,\LR{I-H}HX^Tdw \\
+ &amp;= -\fracLR 1mX\LR{I-H}H\BR{H^{-1}Y \;-\; (I-H)^{-1}(I-Y)}\,\o\,:\,dw \\
+ &amp;= -\fracLR 1mX\BR{\LR{I-H}Y \;+\; H(Y-I)}\,\o\,:\,dw \\
+ &amp;= -\fracLR 1mX\BR{Y-HY \;+\;HY - H}\,\o\,:\,dw \\
+ &amp;= -\fracLR 1mX\BR{Y-H}\,\o\,:\,dw \\
+ &amp;= +\fracLR 1mX\BR{h-y}\,:\,dw \\
+\grad{\J}{w} &amp;= \fracLR 1mX\BR{h-y} \\
+}
+
+
+  [1]: https://en.wikipedia.org/wiki/Logistic_function#Derivative

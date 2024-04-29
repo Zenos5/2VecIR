@@ -1,0 +1,11 @@
+Notice that,
+
+
+\frac{\partial}{}\theta x^i = \frac{\partial}{}(\theta_0 + \theta_1x^i_1 + ... + \theta_jx^i_j)= 
+in this  order derivative,  is a constant, so 
+=\frac{\partial}{}(\theta_0 + \theta_1x^i_1 + ... + \theta_jx^i_j)=
+because it is a linear model (), so
+=(0 + x^i_1 + ... + x^i_j)=
+=x^i_j
+Finally,
+\frac{\partial}{}\theta x^i = x^i_j

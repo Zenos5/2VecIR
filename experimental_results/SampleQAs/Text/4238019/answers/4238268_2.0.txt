@@ -1,0 +1,37 @@
+Let&#39;s replace  with a lower number, , and illustrate the role o partitions in the result.
+
+Only  contributes to the coeicient o ^. The  term has none, o course.
+
+The ^=\cdot  term contributes a coeicient o  rom  and . Note that we get two terms because one contribution has  rom the irst actor and the other has the  actor coming rom the second  actor. Ordering o the partitions is important.
+
+The ^ term contributes a coeicient o  which comes rom ^\cdot  and \cdot ^ in the square o ^. We get a contribution o  here because the  actor rom ^ had a coeicient o  in ^, which in turn came rom ^1\cdot ^ and ^\cdot ^1 in the square o .
+
+So, the total o si terms in ^, thereore a coeicient o , came rom the ollowing partitions:
+
+ = 1+ (rom ^)
+
+ = +1 (rom ^)
+
+ = (1+1)+(1+) (rom ^, with the parentheses showing the separate inputs to ^ rom ^)
+
+ = (1+1)+(+1) (rom ^)
+
+ = (1+)+(1+1) (rom ^)
+
+ = (+1)+(1+1) (rom ^)
+
+In other words:
+
+* We picked partitions into powers o , corresponding to the powers o  in .
+
+* We picked those partitions where the number o terms is also a power o , rom the powers o  you use in the outer unction evaluation.
+
+* For each partitioning satisying the criteria above, we count all the distinguishable orderings.
+
+Now try this partition scheme using  as the input. There could be 1,,, or  powers o  in the partition, and or each partition that has dierent powers o  there will be multiple orderings to count as we saw with the ^ coeicient above.
+
+&gt;! We have + with  orderings, ++1+1 with si orderings, +++ with our orderings, and ++1+1+1+1+1+1 with  orderings. Thus the coeicient o ^{} will be 0.
+
+The entire series begins as
+
++^++3+^+^+^7+1^+^9+\tet{[spoiler]}^{}+...

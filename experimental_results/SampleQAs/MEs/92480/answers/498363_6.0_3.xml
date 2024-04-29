@@ -1,0 +1,70 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <msub>
+   <mi>
+    C
+   </mi>
+   <mi>
+    A
+   </mi>
+  </msub>
+  <mo>
+   =
+  </mo>
+  <mo stretchy="false">
+   {
+  </mo>
+  <mi>
+   B
+  </mi>
+  <mo>
+   ∈
+  </mo>
+  <msub>
+   <mi>
+    M
+   </mi>
+   <mrow>
+    <mi>
+     n
+    </mi>
+    <mi>
+     ×
+    </mi>
+    <mi>
+     n
+    </mi>
+   </mrow>
+  </msub>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   𝔽
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   ∣
+  </mo>
+  <mi>
+   A
+  </mi>
+  <mi>
+   B
+  </mi>
+  <mo>
+   =
+  </mo>
+  <mi>
+   B
+  </mi>
+  <mi>
+   A
+  </mi>
+  <mo stretchy="false">
+   }
+  </mo>
+ </mrow>
+</math>

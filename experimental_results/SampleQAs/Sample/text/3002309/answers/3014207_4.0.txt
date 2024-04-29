@@ -1,0 +1,28 @@
+Put
+\begin{equation*}
+I=\int_{0}^1\dfrac{\ln(1+-^2)}{}\,\mathrm{d} = \int_{0}^1\dfrac{\ln(1+(1-))}{}\mathrm{d}.
+\end{equation*}
+If we change  to  1-  we get
+\begin{equation*}
+I=\int_{0}^1\dfrac{\ln(1+-^2)}{1-}\,\mathrm{d}.
+\end{equation*}
+Consequently
+\begin{equation*}
+2I = \int_{0}^1\ln(1+-^2)\left(\dfrac{1}{}+\dfrac{1}{1-}\right)\,\mathrm{d}.
+\end{equation*}
+The net step will be integration by parts.
+\begin{equation*}
+2I= \underbrace{\left[\ln(1+-^2)\ln\dfrac{}{1-}\right]_{0}^{1}}_{=0} -\int_{0}^1\dfrac{1-2}{1+-^2}\ln\dfrac{}{1-}\, \mathrm{d}
+\end{equation*}
+Then\begin{equation*}
+I=\dfrac{1}{2}\int_{0}^1\dfrac{2-1}{1+-^2}\ln\dfrac{}{1-}\, \mathrm{d}.
+\end{equation*}
+If we substitute  z=\dfrac{}{1-}  we get
+\begin{equation*}
+I = \int_{0}^{\infty}\dfrac{(z-1)\ln z}{2(z+1)(z^2+3z+1)}\,\mathrm{d}z.
+\end{equation*}
+In order to evaluate this integral we integrate  along a keyhole contour and use residue calculus. We get that
+\begin{equation*}
+I = 2\ln^2\varphi
+\end{equation*}
+where 

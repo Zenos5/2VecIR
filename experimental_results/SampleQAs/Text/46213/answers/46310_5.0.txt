@@ -1,0 +1,5 @@
+It seems unnecessary to add to this long list of great books, but
+[Real Analysis and Probability][1] by R.M. Dudley is wonderful. His book fits your need to *emphasize on both aspects of analysis and probability*.  
+
+
+  [1]: http://www.amazon.com/Analysis-Probability-Cambridge-Advanced-Mathematics/dp/0521007542

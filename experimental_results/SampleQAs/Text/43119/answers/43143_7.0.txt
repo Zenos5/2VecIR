@@ -1,0 +1,1 @@
+Primes are also useful for generating hash codes.

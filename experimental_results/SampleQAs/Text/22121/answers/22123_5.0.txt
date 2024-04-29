@@ -1,0 +1,39 @@
+There are may equivalet ways of provig it.
+
+First observe that  divides a umber iff  ad  divides the umber.
+
+(Sice  =  \times  \times  ad \gcd() = \gcd(,) = \gcd(,) = 1)
+
+Divisibility by :
+
+Clearly, |(^-) sice ^ ad  are of the same parity.
+
+Equivaletly you could argue out that |(^-) directly from Fermat&#9;s little Theorem. (This is a overkill of Fermat&#9;s Little Theorem.)
+
+Divisibility by :
+
+^- = (^6-1) = (^-1)(^4+^+1)=(+1)(-1)(^4+^+1).
+
+| or |(-1) or |(+1) ad hece |(^-).
+
+Equivaletly you could argue out that |(^-) directly from Fermat&#9;s little Theorem.
+
+Divisibility by :
+
+Note that  ca be either k or k \pm 1 or k \pm  or k \pm .
+
+If =k or =k \pm 1, we are agai doe sice the | or |(+1) or |(-1) ad hece |(^-).
+
+If =k \pm , the ^ = (k \pm )^ = m + 4 ad ^4 = (m+4)^ = l+.
+Hece ^4 + ^ + 1 = l+ + m + 4 + 1 = (l+m+1) ad hece |(^4 + ^ + 1) \Rightarrow |(^-).
+
+If =k \pm , the ^ = (k \pm )^ = m +  ad ^4 = (m+)^ = l+4.
+Hece ^4 + ^ + 1 = l+4 + m +  + 1 = (l+m+1) ad hece |(^4 + ^ + 1) \Rightarrow |(^-).
+
+Hece, |(^-).
+
+Equivaletly you could argue out that |(^-) directly from Fermat&#9;s little Theorem.
+
+Therefore, we have that |(^-) ad |(^-) ad |(^-), \forall  \i \mathbb{N}.
+
+Hece, |(^-), \forall  \i \mathbb{N}.

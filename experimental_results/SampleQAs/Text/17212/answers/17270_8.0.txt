@@ -1,0 +1,17 @@
+(Zhen: Independence is with respect to ZFC.)
+
+Given any sentence S, either (1) ZFC proves S, in which case it is a theorem of ZFC that ZFC proves S, or (2) ZFC does not prove S. In this case, ZFC is consistent, and ZFC does not know that it does not prove S (or else it would know that it is consistent, and therefore it wouldn&#39;t be, but then it would prove S). So, in this case ZFC does not prove that it does not prove S, and does not prove that it proves S. It follows easily that &quot;ZFC proves S&quot; is independent of ZFC, for any S for which ZFC does not prove S. 
+	
+To ask whether the statement &quot;ZFC proves S&quot; or a variant of this such as (+): &quot;ZFC does not prove S and does not prove not-S&quot; is decidable, on the other hand, is silly, unless you are using the term in a strange fashion. For any S there is a Turing machine M with no input that outputs the truth value of the statement (+). You do not ask for the decidability of a single statement, but of a family of statements, say with S as a parameter. You probably need to clarify what you mean. 
+
+The only sensible way of understanding what you are asking is to take the set whose sole element is a sentence formalizing the statement (+), and asking whether that set is decidable, but of course it is as *any finite set (of natural numbers)* is trivially decidable. Perhaps more interesting is whether, calling the (formalization of the) statement in quotes , the set {S\mid} is decidable. 
+
+Now: Suppose first that ZFC is inconsistent. Then ZFC proves anything, so all the statements  are false. Hence, the set  is obviously decidable. Suppose now that ZFC is consistent. Let S be undecidable. Then if a machine solves , it would tell us, upon inputting S, that S is independent. Since the set of independent (of ZFC) statements is independent, we are done:  is undecidable.
+
+Perhaps you want to know whether ZFC proves that  is decidable, or if it proves that  is undecidable. Note that if ZFC proves that  is undecidable, then the argument above (formalized within ZFC) tells us that ZFC knows that ZFC is consistent. In this case, ZFC *is* inconsistent, and it proves anything.
+
+Suppose, then, that ZFC proves that  is decidable. This is possible if ZFC is inconsistent. So, suppose that ZFC is consistent. Then the argument above tells us that ZFC proves that ZFC is inconsistent. 
+
+This is not expected to be the case, as it tells us that ZFC is wrong about arithmetic statements. If ZFC is a &quot;true&quot; theory, meaning, if the arithmetic consequences of ZFC are true about the natural numbers, then ZFC cannot prove that  is decidable, and &quot; is decidable&quot; is independent. Of course, if ZFC is not a true theory, I do not think it is too interesting whether it proves something or other about .
+
+We can further complicate things by considering models of ZFC, and checking whether the model thinks that ZFC proves that  is decidable, or not, or any of the posisble variants suggested above. We can in fact, assuming mild consistency requirements on ZFC, check that there are models of ZFC that disagree on whether ZFC proves that  is decidable, proves that it is undecidable, or does not prove either. 

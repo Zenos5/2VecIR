@@ -1,0 +1,3 @@
+The def of  is  and  and if  and  then .
+
+Suppose .  Then  and  and  so  and , so .  Conversely if  then  and .  So  and  and , so .  Thus  and .  Therefore 

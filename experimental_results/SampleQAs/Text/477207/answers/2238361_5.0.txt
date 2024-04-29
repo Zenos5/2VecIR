@@ -1,0 +1,16 @@
+@pedro-lopes, it is called as: [chain rule][1].
+
+For example: 
+
+
+
+
+
+Regarding: 
+
+
+
+Note that 
+Hope that I answered on your question!
+
+  [1]: https://en.wikipedia.org/wiki/Chain_rule

@@ -1,0 +1,12 @@
+In more detail, and sticking by the definition,
+
+ =  iff 
+
+In this setting, our groups are Abelian, so we can rewrite:
+
+ iff 
+
+We can choose  to be represented by the copy 
+
+In this case that means that the difference  i.e., the two points are  in the same line through the origin
+through the origin. This means the elements of the quotient are ( up to rotation) all the horizontal lines , or, equivalently, all parallel lines.

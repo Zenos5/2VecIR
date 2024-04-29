@@ -1,0 +1,1 @@
+I would like to solve the equation  analytically, without using Wolfram Alpha. I have tried several substitutions, including , , but they all fail and eventually result in a quartic polynomial which is not easily solved. Any suggestions would be helpful. 

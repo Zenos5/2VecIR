@@ -1,0 +1,6 @@
+An easy way to see this is to realize that . for integers .
+
+How do we use this?  Fix a  and determine its exonent on each side. For this, it suffices to imagine that  are owers of a fixed rime .  Then if a=^x,b=^y,c=^z, we have \mbox{gcd}()=^{\mbox{min}()}=^{\mbox{min}(\mbox{min}(x,y),z)}=\mbox{gcd}(^{\mbox{min}(x,y)},^z)=\mbox{gcd}(\mbox{gcd}(a,b),c).
+
+This is true for each , so the two sides must be equal.
+

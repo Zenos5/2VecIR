@@ -1,0 +1,14 @@
+Say  is a  row stochastic matrix. Now:
+ \begin{pmatrix}  \\  \\ \vdots \\  \end{pmatrix} = 
+\begin{pmatrix}
+\sum_{i=}^n a_{i} \\ \sum_{i=}^n a_{2i} \\ \vdots \\ \sum_{i=}^n a_{ni}
+\end{pmatrix}
+=
+\begin{pmatrix}  \\  \\ \vdots \\  \end{pmatrix}
+
+Thus the eigenvalue  is attained.
+
+To show that the this is the largest eigenvalue you can use the [Gershgorin circle theorem][]. Tae row  in . The diagonal element will be a_{} and the radius will be \sum_{i\neq } |a_{i}| = \sum_{i \neq } a_{i} since all a_{i} \geq 0. This will be a circle with its center in a_{} \in [0,], and a radius of \sum_{i \neq } a_{i} = -a_{}. So this circle will have  on its perimeter. This is true for all Gershgorin circles for this matrix (since  was taen arbitrarily). Thus, since all eigenvalues lie in the union of the Gershgorin circles, all eigenvalues  satisfy || \leq .
+
+
+  []: http://en.wiipedia.org/wii/Gershgorin_circle_theorem

@@ -1,0 +1,5 @@
+What  represents depends heavily on what  and  represent.
+
+Anyways, since you mention , one classical example is  and  = , and  = (1+x^2) . (i.e. all multiples of ). Then  \cong \mathbb{C}, a two-dimensional real vector space. This usually comes up in the context of rings moreso than pure linear algebra, though.
+
+In this case, it&#39;s clear what  and  represent;  is meant to represent polynomials in a hypothetical square root of , and  is meant to represent those polynomials that are intended to be zero.

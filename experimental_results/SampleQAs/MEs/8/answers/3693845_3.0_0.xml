@@ -1,0 +1,39 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mi>
+   p
+  </mi>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   λ
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <msup>
+   <mi>
+    λ
+   </mi>
+   <mn>
+    2
+   </mn>
+  </msup>
+  <mo>
+   −
+  </mo>
+  <mi>
+   λ
+  </mi>
+  <mo>
+   −
+  </mo>
+  <mn>
+   1
+  </mn>
+ </mrow>
+</math>

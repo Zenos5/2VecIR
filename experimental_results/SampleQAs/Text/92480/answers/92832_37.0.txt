@@ -1,0 +1,170 @@
+Gie a square  by  matrix  oer a field  it is always true that  commutes with ay p(), where  is a polyomial with coefficiets i  Note that i the polyomial we tae the costat  to refer to   here, where  is the idetity matrix. lso, by Cayley-Hamilto, ay such polyomial may be rewritte as oe of degree o larger tha (-1), ad this applies also to power series such as e^, although i this case it is better to fid e^ first ad the figure out how to write it as a fiite polyomial.
+
+**THEOREM:** The followig are equialet:
+
+()  commutes oly with matrices  = p() for some  \i [x] 
+
+() The miimal polyomial ad characteristic polyomial of  coicide; ote that, if we elarge the field to more tha the field cotaiig the matrix etries, either the characteristic or the miimal polyomial chage. Nice proofs for the miimal polyomial at https://math.stacexchage.com/questios/136804/ca-a-matrix-i-mathbbr-hae-a-miimal-polyomial-that-has-coefficiets-i 
+
+()  is similar to a compaio matrix. 
+
+(V) if ecessary, taig a field extesio so that the characteristic polyomial factors completely, each characteristic alue occurs i oly oe Jorda bloc 
+
+(V)  has a cyclic ector, that is some  such that 
+ \{ ,,^2, \ldots, ^{-1} \} 
+is a basis for the ector space.
+
+See [GLLRD][1]   [MNML][2]  [SMLR][3] [COMPNON][4]   
+
+The equialece of () ad () is Corollary 9.43 o page 674 of [ROTMN][5]  
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+
+Theorem: f  has a cyclic ector, that is some  such that 
+ \{ ,,^2, \ldots, ^{-1} \} 
+is a basis for the ector space, the 
+ commutes oly with matrices  = p() for some  \i [x].
+
+
+Nice short proof by Gerry at https://math.stacexchage.com/questios/178604/complex-matrix-that-commutes-with-aother-complex-matrix/178633#178633 
+
+This is actually if ad oly if, see [Statemet][6] ad [Proof][7]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+
+
+Note that, as i the complex umbers, if the field  is algebraically closed we may the as about the Jorda Normal Form of .  this case, the coditio is that each eigealue belog to oly a sigle Jorda bloc This icludes the easiest case, whe all eigealues are distict, as the the Jorda form is just a diagoal matrix with a buch of differet umbers o the diagoal, o repeats.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+For  example, let 
+  \; = \;  
+ \left(  \begi{array}{ccc}
+\lambda &amp; 0 &amp; 0 \\
+0 &amp; \lambda &amp; 1 \\
+0 &amp; 0 &amp; \lambda
+\ed{array} 
+  \right).
+  
+
+Next, with r \eq s, tae
+  \; = \;  
+ \left(  \begi{array}{ccc}
+r &amp; 0 &amp; 0 \\
+0 &amp; s &amp; t \\
+0 &amp; 0 &amp; s
+\ed{array} 
+  \right).
+  
+
+We do get
+
+  \; = \;   \; = \; 
+ \left(  \begi{array}{ccc}
+\lambda r &amp; 0 &amp; 0 \\
+0 &amp; \lambda s &amp; \lambda t + s \\
+0 &amp; 0 &amp; \lambda s
+\ed{array} 
+  \right).
+  
+Howeer, sice r \eq s, we ow that  caot be writte as a polyomial i .
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ side ote, https://math.stacexchage.com/questios/1476010/computig-the-dimesio-of-a-ector-space-of-matrices-that-commute-with-a-gie/1476643#1476643   aswer by Pedro. The matrices that commute oly with polyomials i themseles are a extreme case, dimesio of that ector space of matrices is just . The other extreme is the idetity matrix, commutes with eerythig, dimesio ^2. For some i-betwee matrix, what is the dimesio of the ector space of matrices with which it commutes?
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Showig what must be the form of a square bloc if it commutes with a Jorda bloc There is o loss i taig the eigealue for the Jorda bloc as zero, ad maes it all cleaer:
+
+    parisize = 4000000, primelimit = 500000
+    ? jorda = [ 0,1;0,0]
+    %1 = 
+    [0 1]
+    
+    [0 0]
+    
+    ? symbols = [a,b;c,d]
+    %2 = 
+    [a b]
+    
+    [c d]
+    
+    ? jorda * symbols - symbols * jorda
+    %3 = 
+    [c -a + d]
+    
+    [0     -c]
+    
+    ? 
+    ? 
+    ? symbols = [ a,b,c;d,e,f;g,h,i]
+    %4 = 
+    [a b c]
+    
+    [d e f]
+    
+    [g h i]
+    
+    ? jorda = [ 0,1,0; 0,0,1; 0,0,0]
+    %5 = 
+    [0 1 0]
+    
+    [0 0 1]
+    
+    [0 0 0]
+    
+    ? jorda * symbols - symbols * jorda
+    %6 = 
+    [d -a + e -b + f]
+    
+    [g -d + h -e + i]
+    
+    [0     -g     -h]
+    
+    ? 
+    ? 
+    ? jorda = [ 0,1,0,0; 0,0,1,0; 0,0,0,1;0,0,0,0]
+    %7 = 
+    [0 1 0 0]
+    
+    [0 0 1 0]
+    
+    [0 0 0 1]
+    
+    [0 0 0 0]
+    
+    ? symbols = [ a,b,c,d; e,f,g,h; i,j,l; m,,o,p]
+    %8 = 
+    [a b c d]
+    
+    [e f g h]
+    
+    [i j  l]
+    
+    [m  o p]
+    
+    ? jorda * symbols - symbols * jorda
+    %9 = 
+    [e -a + f -b + g -c + h]
+    
+    [i -e + j -f +  -g + l]
+    
+    [m -i +  -j + o - + p]
+    
+    [0     -m     -     -o]
+
+
+=================================
+
+  [1]: https://mathoerflow.et/questios/65796/whe-aimals-attac
+  [2]: http://e.wiipedia.org/wii/Miimal_polyomial_%28liear_algebra%29
+  [3]: http://e.wiipedia.org/wii/Similar_matrix
+  [4]: http://e.wiipedia.org/wii/Compaio_matrix
+  [5]: http://www.amazo.com/daced-Moder-lgebra-Joseph-Rotma/dp/0130878685
+  [6]: https://plaetmath.org/cyclicectortheorem
+  [7]: https://plaetmath.org/proofofcyclicectortheorem
+
+
+

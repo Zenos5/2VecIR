@@ -1,0 +1,27 @@
+We have
+f()=+^+^4+^+^{16}+\ldots
+To find the coefficient of  in this expansion, note that the smallest power of  for some  is x^.
+
+Hence, to find the coefficient of , we only need to consider
++^+^4+^
+The coefficient of  in  represents the number of solutions to
+\sum_{i=1}^ =
+Where  are integral powers of .
+
+We can systematically find these solutions using the binary representation of =_
+
+If we are a little hand wavy with how we use binary representation, we can say that 
+=_
+=_=0_
+=130_=0_
+Note that the expressions in the  line represent the different ways to represent  as a sum of  integral powers of  e.g. in the second line we have _\implies =4+4+. We created the expressions in a line by recursively taing the expressions from the previous line and splitting a single power of  in half.
+
+We then have to account for permutations. Clearly  has no coefficient of 
+
+The coefficient of  in ^ is the number of permutations of \{,\}, which is !=\boxed{}.
+
+The coefficient of  in ^4 is the number of permutations of \{4,,,\} and , which is \frac{4!}{3!}+\frac{4!}{!!}=\boxed{}.
+
+The coefficient of  in ^ is not as easily found using the recursive method we used before. However, it is easily found that the only way to express  as the sum of  powers of  is 1+1+1+1+1+1++. There are \frac{!}{6!!}=\boxed{} permutations of this.
+
+Hence, the total coefficient of  is ++=\boxed{40}

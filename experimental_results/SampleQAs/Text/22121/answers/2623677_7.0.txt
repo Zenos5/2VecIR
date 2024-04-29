@@ -1,0 +1,32 @@
+**Combinatorial Polynomial Approach**
+
+Since
+
+\begin{align}
+n^7-n
+&amp;=5040\binom{n}{7}+15120\binom{n}{6}+16800\binom{n}{5}+8400\binom{n}{4}+1806\binom{n}{3}+126\binom{n}{2}\\
+&amp;=42\left[120\binom{n}{7}+360\binom{n}{6}+400\binom{n}{5}+200\binom{n}{4}+43\binom{n}{3}+3\binom{n}{2}\right]
+\end{align}
+
+Therefore, we have that for all ,
+
+42\mid n^7-n
+
+***
+**Little Fermat Approach**
+
+Little Fermat Theorem says
+
+n^7\equiv n\pmod7
+
+and since 
+
+n^7\equiv n\pmod3
+
+and since 
+
+n^7\equiv n\pmod2
+
+Thus,
+
+n^7\equiv n\pmod{42}

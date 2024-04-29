@@ -1,0 +1,28 @@
+The reason is the following. We use the notation:
+
+
+
+Then
+
+  [ this used:  the 1&#39;s in numerator cancel, then we used: ]
+
+Since our original cost function is the form of:
+
+
+
+Plugging in the two simplified expressions above, we obtain
+, which can be simplified to:
+J(\theta)=-\frac{1}{m}\sum_{i=1}^m \left[y_i\theta x^i-\theta x^i-\log(1+e^{-\theta x^i})\right]=-\frac{1}{m}\sum_{i=1}^m \left[y_i\theta x^i-\log(1+e^{\theta x^i})\right],~~
+
+where the second equality follows from
+
+-\theta x^i-\log(1+e^{-\theta x^i})=
+-\left[ \log e^{\theta x^i}+
+\log(1+e^{-\theta x^i} )
+\right]=-\log(1+e^{\theta x^i}).  [ we used  ]
+
+All you need now is to compute the partial derivatives of  w.r.t. . As
+\frac{\partial}{\partial }y_i\theta x^i=y_ix^i_j, 
+\frac{\partial}{\partial }\log(1+e^{\theta x^i})=\frac{x^i_je^{\theta x^i}}{1+e^{\theta x^i}}=x^i_jh_\theta(x^i),
+
+the thesis follows.

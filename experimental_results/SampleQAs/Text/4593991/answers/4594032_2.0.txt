@@ -1,0 +1,20 @@
+Observe  implies that,  
+
+Thus, under the restriction  we have:
+
+\begin{align}x\sqrt{1-x^2}&amp;=\sqrt{1-x^2}-x\\
+\left(x\sqrt {1-x^2}\right)^2&amp;=1-2x\sqrt {1-x^2}\end{align}
+
+
+Letting , we have:
+
+\begin{align}&amp;u^2=1-2u\\
+\implies &amp;u^2+2u-1=0\end{align}
+
+This leads to:
+
+\begin{align}&amp;u=\sqrt{1-x^2}-x\\
+\implies &amp;ux=u-x^2,\,x≠0\\
+\implies &amp;x^2+ux-u=0.\end{align}
+
+Finally, note that all possible roots of the original equation must satisfy the inequality .

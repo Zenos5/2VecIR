@@ -1,0 +1,5 @@
+&gt;Evaluate I=\int_0^1\frac{\ln()}xdx without using polylogarithm functions.  
+
+This integral can be easily solved by factorizing  and using the values of dilogarithm at some special points.  
+The motivation of writing this post is someone said that this integral cannot be solved without using special functions.  
+Another alternative solutions will be appreciated.

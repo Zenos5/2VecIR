@@ -1,0 +1,1 @@
+If , then  is a matrix norm. Furthermore,  for any matrix norm  (e.g., Theorem 5.6.9 in the first-edition of Horn and Johnson&#39;s *Matrix nalysis*). If  is stochastic, then \begin{Vmatrix}  \end{Vmatrix}_\infty = 1 so that \vert \lambda \vert \le \rho() \le 1.   

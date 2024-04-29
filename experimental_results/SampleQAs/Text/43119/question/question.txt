@@ -1,0 +1,12 @@
+I am going through the problems from Project Euler and I notice a strong insistence on Primes and efficient algorithms to compute large primes efficiently. 
+
+The problems are interesting per se, but I am still wondering what the real-world applications of primes would be. 
+
+What real tasks require the use of prime numbers?
+
+
+----------
+Edit: A bit more context to the question:
+I am trying to improve myself as a programmer, and having learned a few good algorithms for calculating primes, I am trying to figure out where I could apply them. 
+
+The explanations concerning cryptography are great, but is there nothing else that primes can be used for? 

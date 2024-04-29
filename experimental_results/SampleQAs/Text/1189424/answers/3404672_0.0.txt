@@ -1,0 +1,9 @@
+A different definition of gcd affords another proof.
+
+For , then  
+
+Note that in some cases, an exponent  will be  when a particular  is not a factor of one or another of , but since \mid abc, at least one of  will be greater than 
+
+Similarly, \gcd(a,b)=\prod ^{\min(\alpha_i,\beta_i)}
+
+Hence, \gcd(\gcd(a,b),c)=\prod ^{\min({\min(\alpha_i,\beta_i)},\gamma_i)}=\prod ^{\min()}=\gcd() QED

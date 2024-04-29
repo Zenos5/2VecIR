@@ -1,0 +1,48 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <msup>
+   <mi>
+    s
+   </mi>
+   <mrow>
+    <mi>
+     ±
+    </mi>
+    <mn>
+     2
+    </mn>
+   </mrow>
+  </msup>
+  <mo>
+   ,
+  </mo>
+  <msup>
+   <mi>
+    t
+   </mi>
+   <mrow>
+    <mi>
+     ±
+    </mi>
+    <mn>
+     2
+    </mn>
+   </mrow>
+  </msup>
+  <mo>
+   ∈
+  </mo>
+  <mi>
+   Z
+  </mi>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   G
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+ </mrow>
+</math>

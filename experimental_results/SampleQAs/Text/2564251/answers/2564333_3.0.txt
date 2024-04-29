@@ -1,0 +1,10 @@
+Hint:
+
+Divide numerator &amp; denominator by  
+
+and set 
+
+Alternatively, the divisor 
+
+and the substitution 
+

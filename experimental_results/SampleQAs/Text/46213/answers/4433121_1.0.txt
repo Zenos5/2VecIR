@@ -1,0 +1,13 @@
+I found the book [Measure, Integration &amp; Real Analysis][1] by Sheldon Axler an excellent read.
+
+ - The book motivates definitions with examples and counterexamples. 
+ - The book highlights the important parts so that you can peruse it.
+ - There are good end-of-chapter problems that drive in the concept learnt.
+
+Axler brings a similar style to his more famous Linear Algebra book to the area of Measure Theory. The book is an easy read while being rigorous.
+
+The book is aimed at active learning and may not be a comprehensive reference book (as requested in the question). Having said that, it provides excellent proofs, motivates definitions well and has a good topic coverage. It also helps that the author has made the book available on open access.
+ 
+
+
+  [1]: https://measure.axler.net/

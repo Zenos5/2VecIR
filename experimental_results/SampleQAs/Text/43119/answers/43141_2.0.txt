@@ -1,0 +1,1 @@
+There may be some applications (other than to cryptography, already mentioned) in Manfred Schroeder&#39;s book, Number Theory in Science and Communication. 

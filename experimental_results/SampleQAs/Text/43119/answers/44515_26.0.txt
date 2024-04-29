@@ -1,0 +1,11 @@
+You can use prime numbers to plot this fine pattern :)
+
+![enter image description here][1]
+
+Intensity of green colour for each pixel was calculated using a function, which can be described with this pseudocode snippet:
+
+    g_intensity = ((((y &lt;&lt; 32) | x))^((x &lt;&lt; 32) | y))) * 15731 + 1376312589) % 256
+
+where x and y are a pixel coordinates in screen space, stored in a 64bit integer variables.
+
+  [1]: http://i.stack.imgur.com/rQBtu.png

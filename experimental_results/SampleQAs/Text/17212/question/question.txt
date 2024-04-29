@@ -1,0 +1,1 @@
+We know there are statements that are undecidable/independent of ZFC. Can there be a statement S, such that (ZFC  S and ZFC  ~S) is undecidable?

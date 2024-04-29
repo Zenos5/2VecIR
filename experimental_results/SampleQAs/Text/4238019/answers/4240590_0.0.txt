@@ -1,0 +1,31 @@
+For a polynomial
+
+\sum_{n=0}^{\infty}c_n 
+
+you find coefficient at  as 
+
+
+
+Now if you have a composite function  there is a well-known expression, Fa&#224; di Bruno&#39;s formula, which can be reduced to something simpler for your case.
+
+In general if f(x)=\sum\limits_{n=0}^{\infty}a_n  and g(x)=\sum\limits_{n=0}^{\infty}b_n  then
+
+=\sum_{n=0}^{\infty}c_n 
+
+where
+
+
+
+
+
+Applied to your case
+
+c_{}=\sum_{i \in P_{}}^{\infty}a_k\prod_{i=1}^{k}a_{i_k}
+
+P_{}=\{(i_1,i_2,\cdots,i_k) : 1 \leq k \leq , \sum_{m=1}^{k} i_m= \}
+
+But all your  unless  when 
+
+Which is to say in how many ways you can uniquely represent  as a sum of  using  terms.
+
+That counting or similar you cannot avoid.

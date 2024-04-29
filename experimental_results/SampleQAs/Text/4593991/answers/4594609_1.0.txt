@@ -1,0 +1,16 @@
+et us make the substitution ; then we get the sstem of polnomial equations
+\begin{align*}
+x^2 + ^2 &amp; = 1, \\
+x(1+) &amp; = .
+\end{align*}
+From here, if we solve the second equation for ,  = \frac{x}{1-x}, and substitute into the first equation, it is straightforward to get the polnomial equation
+
+However, let us go back to the original sstem of two equations in (x, ).  Here, the first equation is the unit circle, and the second equation is equivalent to (x-1)(+1) = -1, so it is a hperbola with center .  We see that both curves are smmetric about the line  = -x; therefore, if (x, ) is a solution to the sstem of equations, then so is (-, -x).  This implies that if  is a root of the quartic polnomial, then so is -\frac{}{1 - } = \frac{}{ - 1}.
+
+From here, we can hpothesize that if  is the splitting field of the quartic over , then there might be an element  \in \operatorname{Gal}( / ) which permutes the roots according to  \mapsto \frac{}{ - 1}.  If this is the case, then it is eas to see that  since it fixes each root of the quartic; however  since the onl fixed point of  \mapsto \frac{}{ - 1} is 2, and 2 is not a root of the quartic.  Then setting  to be the fixed field of , we will have \operatorname{Tr}^_() =  + \frac{}{ - 1} = \frac{^2}{ - 1}.  This suggests searching for a polnomial which will have \frac{^2}{ - 1} as a root, and hopefull finding the roots of this polnomial will be simpler because  has smaller degree over .
+
+However, from this point, we fairl quickl see that
+\left( \frac{^2}{-1} \right)^2 - 2 \left( \frac{^2}{-1} \right) - 1 = \frac{^4 - 2^2(-1) - (-1)^2}{(-1)^2} = \\
+\frac{^4 - 2^3 + ^2 + 2 - 1}{(-1)^2} = 0.
+
+But then, that means that \frac{^2}{-1} = 1 \pm \sqrt{2}.  Another application of the quadratic formula to the equation ^2 - (1 \pm \sqrt{2})  + (1\pm\sqrt{2}) = 0 gives the roots of the quartic.  (Then from here, two of the roots of the quartic will be complex, and one of the real roots will not satisf the original equation because it does not satisf .)

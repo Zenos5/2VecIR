@@ -1,0 +1,3 @@
+When I was some 20 years old and living by myself for the first time, I designed a little racetrack with numbered squares on it, along with a handful of coloured tokens that would race along the track at the speed of one square per day. Each token had a household chore and a prime number on it; when a token hit its number, I had to carry out the given task, and it would get reset to zero. So, I washed the dishes every two days, watered the plants every three, vacuumed the carpet every five, ....
+
+It was a good system. It made cleaning fun, it provided variety and structure at the same time, and I was obliged to devote the entire day to chores only once every 1397.73 years.

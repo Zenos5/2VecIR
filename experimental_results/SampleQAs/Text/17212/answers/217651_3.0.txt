@@ -1,0 +1,13 @@
+This answer is a response to Simon&#39;s answer. It&#39;s trivial to show that any statement that&#39;s 2-undecidable is 3-undecidable. For instance take any statement S, then
+
+(1)Suppose S is decidable, then its undecidability is decidable.
+
+(2)Suppose the undecidability of S is undecidable, then from (1), S is undecidable.
+
+(3)Suppose the undecidability of S is undecidable but the undecidability of its undecidability is decidable, then it can be shown that the undecidability of S is undecidable, and from (2), this means it can be shown that S is undecidable. Thus the undecidability of S is decidable which contradicts the assumption that the undecidability of S is undecidable.
+
+Thus for any statement S, if its undecidability is undecidable, necessairily the undecidability of it&#39;s undecidability is undecidable.
+
+It can also be shown that if S is 3-undecidable, then it&#39;s 4-undecidable as follows.
+
+Let T be the statement S is undecidable. Now suppose S is 3-undecidable, then T is 2-undecidable so T is 3-undecidable so S is 4-undecidable.

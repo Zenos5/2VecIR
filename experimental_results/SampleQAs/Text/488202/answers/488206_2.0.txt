@@ -1,0 +1,4 @@
+Well just remember what  is. Those are the permutations with signum 1. In particular every -cycle is in . Furthermore for any -cycle  you know that 
+\{id, ,^{-1}\} 
+is a subgroup with cardinality . 
+In particular in  there are (1\ \ ) and , so you have at least  different -Sylow subgroups.

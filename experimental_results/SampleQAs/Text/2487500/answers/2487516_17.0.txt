@@ -1,0 +1,8 @@
+Groups are symmetries. The best way to think about a group is that you have an object that has some kind of symmetry, and the group represents mathematically that symmetry. For example,  is the symmetry of a square, with each element representing a rotation of flip of the square;  is the symmetry of five objects rotating in a circle, with each element representing a different rotation; and  is the symmetry of  points that can be permuted in any fashion, with each element corresponding to a different reording.
+
+In my opinion, this is far and away the best way to think about groups, even abstractly. You have some unspecified object and each element of the group represents a way that an object or collection of objects can be spun, flipped, reflected, etc. without changing.
+
+See [here][1] for a cute interactive illustration of  being the symmetry group of a square.
+
+
+  [1]: https://mathigon.org/world/Symmetry_and_Groups

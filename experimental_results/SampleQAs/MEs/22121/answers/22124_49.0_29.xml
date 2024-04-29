@@ -1,0 +1,62 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mo>
+   −
+  </mo>
+  <mi>
+   n
+  </mi>
+  <msup>
+   <mo stretchy="false">
+    )
+   </mo>
+   <mn>
+    7
+   </mn>
+  </msup>
+  <mo>
+   −
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mo>
+   −
+  </mo>
+  <mi>
+   n
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <mo>
+   −
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <msup>
+   <mi>
+    n
+   </mi>
+   <mn>
+    7
+   </mn>
+  </msup>
+  <mo>
+   −
+  </mo>
+  <mi>
+   n
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+ </mrow>
+</math>

@@ -1,0 +1,100 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mtext>
+  </mtext>
+  <mtext>
+  </mtext>
+  <mi>
+   d
+  </mi>
+  <mo>
+   ∣
+  </mo>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mn>
+    1
+   </mn>
+  </msub>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   …
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mi>
+    n
+   </mi>
+  </msub>
+  <mspace width="negativethinmathspace">
+  </mspace>
+  <mover>
+   <mi>
+    ⟺
+   </mi>
+   <mrow>
+    <mstyle mathcolor="#c00">
+     <mi mathvariant="normal">
+      U
+     </mi>
+     <mspace width="negativethinmathspace">
+     </mspace>
+     <mspace width="negativethinmathspace">
+     </mspace>
+    </mstyle>
+   </mrow>
+  </mover>
+  <mi>
+   d
+  </mi>
+  <mo>
+   ∣
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mn>
+    1
+   </mn>
+  </msub>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   …
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <msub>
+   <mi>
+    a
+   </mi>
+   <mi>
+    n
+   </mi>
+  </msub>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mtext>
+  </mtext>
+  <mtext>
+  </mtext>
+  <mtext>
+  </mtext>
+ </mrow>
+</math>

@@ -1,0 +1,28 @@
+&gt; 
+&gt; 
+&gt; Square-rooting both sides:
+&gt; 
+&gt;  or
+&gt; 
+&gt; 
+&gt; 
+&gt; Now, (ii) gives us a reasonable root . However, (i)
+&gt; gives us a weird result  . Why do I get this weird
+&gt; result by square-rooting both sides?
+
+You weird result is due to performing an **invalid** step and taking square root the incorrectly:  (Try  for example.)
+
+Here are two correct solutions:
+
+**Method A**
+
+Continuing graphically:
+
+[![enter image description here][1]][1]
+
+.
+
+**Method B**
+(5-y)^2=(1-y)^2\\25-10y=1-2y\\.
+
+  [1]: https://i.stack.imgur.com/3Pg4U.png

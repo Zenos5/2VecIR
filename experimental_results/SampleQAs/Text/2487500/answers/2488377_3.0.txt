@@ -1,0 +1,3 @@
+roups are just permutatio groups. By [Cayley&#39;s theorem](https://e.wikipedia.org/wiki/Cayley%27s_theorem), every group  is isomorphic to some subgroup of , the group of all permutatios o  elemets, for some . The proof is to to associate each g\i  with the fuctio f_g:\to  defied by . The group axioms guaratee that this is a bijectio, ad the associativity axiom i particular says that .
+
+Thus, if you like, group theory is just the theory of permutatios (sometimes o ifiite sets). Just swappig eggs aroud i a egg carto.

@@ -1,0 +1,1 @@
+Just to add one more: Primes are also useful when generating Pseudo-Random Numbers with the computer. A few formulas use them to avoid patterns in the output.

@@ -1,0 +1,30 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mfrac>
+   <mrow>
+    <mn>
+     1
+    </mn>
+    <mo>
+     +
+    </mo>
+    <mi>
+     n
+    </mi>
+   </mrow>
+   <mrow>
+    <mn>
+     2
+    </mn>
+    <msup>
+     <mi>
+      n
+     </mi>
+     <mn>
+      2
+     </mn>
+    </msup>
+   </mrow>
+  </mfrac>
+ </mrow>
+</math>

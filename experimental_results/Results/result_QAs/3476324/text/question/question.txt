@@ -1,0 +1,28 @@
+I have a limited set of &quot;occupied&quot; cicula aeas o a 2D-aea ( ad  aes). These cicles ae defied b a cete poit (_,_), with  ad a commo fied adius . Those values ae kow.
+
+Fo a game I’m makig, I wat to fid the closest poit to the use’s locatio (_u,_u) that is ot withi the cicles. I thik this meas I wat to fid the  ad  such that
+
+(-_u)^2+(-_u)^2
+
+is miimized, while fo each ,
+
+(-_)^2+(-_)^2&gt; ^2.
+
+Note: I case the optimal solutio diffes fom a fast oe, I do ot eed to fid the optimal solutio eve time, but a fast algoithm that gives me a easoabl good esult. (Reasoabl meaig that a use will ot istatl eact ad see that it is wog). 
+
+I guess this has bee alead solved somewhee but I could ot fid whee. Poites to questio/aswe ae welcome.
+
+P.S. Mabe makig &quot;guesses&quot; o a spial out fom the use locatio could wok, but I thik thee ae much bette solutios.
+
+**Update to claif 1**: All cicles ae occupied aea. I wat to fid a locatio outside all cicles. 
+
+**Update 2**: Sometimes the use locatio itself ca be the solutio. If outside of all cicles.
+
+**Update 3**: Cicles ca be awhee, ovelap etc.
+
+Eample image whe use is iside cicle(s). The the task is to fid the closest o-coloed aea ea the sta(the use). Note that itesectios ae maked also as I thik the ae elevat.  
+[![Eample image whe use is iside cicle(s), itesectios maked also as I thik the ae elevat][1]][1]
+
+  [1]: https://i.stack.imgu.com/8vUVd.pg
+
+**Update 4** Moe ifo based o a commet about optimizatio: The cicles will sta ad the use ma move, whe et calculatio is doe. Whe a spot is foud aothe cicle ma be added thee (based o use actios).

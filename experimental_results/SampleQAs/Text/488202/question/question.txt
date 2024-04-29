@@ -1,0 +1,9 @@
+**How many sylow -subgroups of  are there?**
+
+My attempt:
+
+n_|O()\implies n_=,2,,,6,2
+
+|n_-\implies n_=,
+
+How to calculate which of  and  is the value of n_?

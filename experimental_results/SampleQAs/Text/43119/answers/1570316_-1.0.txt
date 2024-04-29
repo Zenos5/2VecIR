@@ -1,0 +1,3 @@
+I used prime numbers to help group entities using two factors using Excel. I needed to calculate **a.** how large an entity was (in terms of turnover), and **b.** how tardy it was (by number of months) in filing annual returns. Each band had a consecutive number, and each size (e.g. turnover between 2 million) was assigned a prime number higher than the total number of time bands. Using prime numbers ensured that multiplying &quot;size&quot; by &quot;lateness&quot; values resulted in a unique &quot;lateness score&quot; that could then be used used to group entities based on size and degree of lateness. 
+
+	 

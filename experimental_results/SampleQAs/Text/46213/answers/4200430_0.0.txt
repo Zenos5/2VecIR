@@ -1,0 +1,29 @@
+I suggest the following books:
+
+**The classical books**
+------------------------
+1- S. J. Taylor, Introduction to Measure and Integration, Cambridge University Press, 1973. (*Very constructive book -may be hard-, personally, I use this book for abstract measure theory as a textbook*)
+
+2- E. Asplund and L. Bungart, A First Course in Integration, Holt, Rinehart and Winston, Inc., 1966. (*It is very useful to understand Lebesgue&#39;s Integral and Measure theory on reals*.)
+
+
+**Modern Books:**
+--------------
+3- F. Burk, Lebesgue Measure and Integration: An Introduction, John Wiley &amp; Sons, Inc. 1998. (my second recommended textbook)
+
+4- F. Jones, Lebesgue Integration on Euclidean, Jones and Bartlett Publishers, 2001. 
+
+
+5- G. S. Nelson, A User-Friendly Introduction to Lebesgue Measure and Integration,  AMS, 2015. (*Easy to understand, excellent for beginners, Recommended.*)
+
+6- W. Johnston, The Lebesgue Integral for Undergraduates, MAA Press 2nd ed 2015. (*Easy to understand, excellent for beginners, Recommended.*)
+
+7- J. Yeh, PROBLEMS AND PROOFS IN REAL ANALYSIS: Theory of Measure and Integration, World Scientific 2014. (*Good collection of exercises but you need to learn first*)
+ 
+
+**General and interesting books are:**
+
+1- F. Burk, A Garden of Integrals, MAA, 2007. (*I like this book and I recommend reading this book at first*)
+
+2- D. M. Bressoud, A Radical Approach to Lebesgue&#39;s Theory of Integration, Cambridge University Press, 2008. 
+   

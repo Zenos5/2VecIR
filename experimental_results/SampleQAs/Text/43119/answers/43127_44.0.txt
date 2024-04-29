@@ -1,0 +1,12 @@
+[Here](http://www.baltimoresun.com/bal-te.ms.cicada10may10,0,5638148.story) is a hypothesized real-world application, but it&#39;s not by humans...it&#39;s by cicadas. 
+
+[Cicadas][1] are insects which hibernate underground and emerge every 13 or 17 years to mate and die (while the newborn cicadas head underground to repeat the process). Some people have speculated that the 13/17-year hibernation is the result of evolutionary pressures. If cicadas hibernated for X years and had a predator which underwent similar multi-year hibernations, say for Y years, then the cicadas would get eaten if Y divided X. So by &quot;choosing&quot; prime numbers, they made their predators much less likely to wake up at the right time.
+
+(It doesn&#39;t matter much anyway, because as I understand it, all of the local bug-eating animals absolutely gorge themselves whenever the cicadas come out!)
+
+----------------------------------------------------------------------------
+
+EDIT: I should have refreshed my memory before posting. I just re-read the article, and the cicadas do not *hibernate* underground. They apparently &quot;suckle on tree roots&quot;. The article has a few other mild corrections to my answer, as well.
+
+
+  [1]: http://en.wikipedia.org/wiki/Cicadas

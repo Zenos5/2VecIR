@@ -1,0 +1,7 @@
+The video &quot;[Visualizing Group Theory 1][1]&quot; is in my opinion an almost ideal visualization-and a good introductory summary-of groups. 
+
+Also, reading the classic book &quot;[Symmetry&quot;][2] by Herman Weyl is a must.
+
+
+  [1]: https://www.youtube.com/watch?v=MnRcc9eINaQ
+  [2]: https://press.princeton.edu/titles/865.html

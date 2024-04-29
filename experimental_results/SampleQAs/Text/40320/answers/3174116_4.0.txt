@@ -1,0 +1,16 @@
+It s a lmtary xrcs that a matrx  has row sums qual to o f ad oly f  (hr,  dots th all-os colum vctor of sz ). Thus, f  s stochastc, th 1 \ \sgma().
+
+Now, lt  b a gpar of ,  whch  s stochastc. Wthout loss of gralty, w may assum that 
+
+ \vrt \vrt v \vrt \vrt_\fty := \max_{1 \l k \l } \{ \vrt v_k \vrt \} = 1.
+
+Thus, thr s a postv tgr , 1 \l  \l , such that \vrt v_ \vrt = 1. Sc v = \lambda v, by th mchacs of matrx multplcato ad th abov, w hav 
+
+\vrt \lambda \vrt = 
+\vrt \lambda \vrt\cdot 1 =  
+\vrt \lambda \vrt \cdot \vrt v_ \vrt = 
+\vrt \lambda v_ \vrt = \lft\vrt \sum_{j=1}^ a_{j} v_j \rght \vrt 
+\l \sum_{j=1}^ a_{j} \vrt v_j \vrt
+\l \sum_{j=1}^ a_{j} = 1,
+
+.., \vrt \lambda \vrt \l 1. 

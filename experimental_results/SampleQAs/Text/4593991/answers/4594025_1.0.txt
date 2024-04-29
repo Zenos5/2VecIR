@@ -1,0 +1,30 @@
+
+
+substitute 
+
+divide both sides by 
+
+square both sides
+
+isolate the square root
+
+square both sides
+4-4y=+y^{-2}-6y-6y^{-1}+11
+multiply both sides by 
+4-4y^3=y^4-6y^3+11-6y+1
+subtract the left hand side from the right
+y^4-2y^3+7-6y+1=0
+Factoring y^4-2y^3+7-6y we get
+y^4-2y^3+7-6y=y(y^3-2+7y-6)=y(y-1)(-y+6)=(-y)(-y+6)
+Substitute -y=z
+y^4-2y^3+7-6y=z^2+6z
+Plugging it back in we get
+
+
+
+Undoing the substitution we get
+-y+3&#177;\sqrt{8}=0
+
+Knowing  we get the following
+
+Three of these solutions are extraneous

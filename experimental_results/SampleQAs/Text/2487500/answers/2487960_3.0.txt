@@ -1,0 +1,11 @@
+Here is a very good and informative video series about groups: [Visual Group Theory][1].
+
+The series covers a lot of stuff. Everything from the axioms to Galois Theory. Everything is visualized by diagrams and intuitive observations.
+
+Then there is [this][2] video. It&#39;s the best video I&#39;ve ever found about applying group theory.
+
+P.s. I know the feeling you have. When I was learning group theory, I was also struggling with the lack of intuition behind the theory. But once you get over it, you&#39;ll find group theory super interesting topic.
+
+
+  [1]: https://www.youtube.com/watch?v=UwTQdOop-nU%22Visual%20Group%20Theory%22
+  [2]: https://www.youtube.com/watch?v=n-v6pmZzxL0

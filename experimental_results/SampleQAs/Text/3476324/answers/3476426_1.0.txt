@@ -1,0 +1,17 @@
+Fin the squae istances  fom the use to each of the cicle centes.
+
+If all the iffeences  - ^2 ae nonnegative then the use is outsie all the cicles, so the use&#39;s position is the answe. 
+
+If the occupie cicles ae isjoint, at most one of those iffeences is negative an the use is in that cicle. Then the answe is the point at istance  on the line fom  that cente to the use. (If the use is at the cente of that cicle any point on the cicle will o.)
+
+When the occupie cicles can intesect then fining the answe when the use lies insie one (o moe) of the cicles is quite subtle  - aw some pictues to see what might happen. Even if the use is in just one cicle the othe cicles can affect the answe. The (new) figue in the question shows that.
+
+I oubt that thee&#39;s a goo algoithm. I woul stat by  quantifying the ifficulty: how many occupie cicles might thee be? How goo an answe o you nee? How many istance calculations ae you willing to mae? 
+
+One possible stategy: pic  iections. Step away fom the use along each by (appoximately)  units until you each a point outsie all the cicles (you can o that by incementing cooinates). Use the closest point foun. Expeiment with iffeent values of  an .
+
+Anothe iea: eep a (long?) list of safe points. Remove points fom that list each time you a an occupie cicle. (The upate will be faste but less pecise if you thow out the points in the squae cicumscibe about the cicle.)
+
+Any a hoc solution lie these will equie some expeiments. 
+
+

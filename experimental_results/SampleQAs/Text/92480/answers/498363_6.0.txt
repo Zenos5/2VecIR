@@ -1,0 +1,8 @@
+Let  be a  matrix over a field . Let C_ = \{B\i M_{}() \mid B=B\}. The the miimal dimesio of C_ over  is , ad this is obtaied recisely whe the miimal olyomial ad characteristic olyomial of  coicide.
+
+The idea of roof is iterretig C_ as a [x]-edomorhism algebra of the [x]-module M^. (Here M^ is the [x]-module structure of ^). Use the Ratioal Caoical Form-Primary decomositio. We have the followig formula for \textrm{dim}_{} C_.
+\textrm{dim}_{} C_=\textrm{dim}_{}\textrm{ Ed}_{[x]}M^=\sum_(\deg )\sum_{i,j} \mi\{\lambda_{,i}, \lambda_{,j}\},
+    
+    where the first sum is over all irreducible olyomials  that divides the characteristic olyomial of , ad the idices  of secod double sum is from the artitio \lambda_=\sum_i \lambda_{,i} that idicates the owers of  i -rimary art of M^.
+
+Thus, if miimal olyomial does ot coicide with characteristic olyomial, the the dimesio of C_ is greater tha . 

@@ -1,0 +1,1 @@
+I understand the concept of , but I am having a really hard time understanding how this concept of quotients applies to vector spaces. Suppose  is a vector space and . What exactly does  represent?

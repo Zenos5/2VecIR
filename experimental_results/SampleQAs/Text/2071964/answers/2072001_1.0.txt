@@ -1,0 +1,6 @@
+Try e.g. M = \pmatrix{3 &amp; \cr - &amp; 0\cr}
+Eigenvalues are  and .  Normalized right eigenvectors form the matrix
+A = \pmatrix{-/\sqrt{} &amp; -/\sqrt{5} \cr /\sqrt{} &amp; /\sqrt{5}\cr}
+Normalized left eigenvectors form
+ B = \pmatrix{/\sqrt{5} &amp; /\sqrt{5}\cr /\sqrt{} &amp; /\sqrt{}\cr}
+These are not inverses.

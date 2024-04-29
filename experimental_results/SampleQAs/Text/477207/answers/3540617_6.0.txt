@@ -1,0 +1,79 @@
+You have to get the partial derivative with respect . Remember that the hypothesis function here is equal to the sigmoid function  which is a function of ; in other words, we need to apply the chain rule. This is my approach:
+
+J()=-\frac{1}{m}\sum_{i=1}^{m}y^{i}\log(h_(x^{i}))+(1-y^{i})\log(1-h_(x^{i}))
+
+\frac{\partial}{\partial_{j}}J() = \frac{\partial}{\partial_{j}} [-\frac{1}{m}\sum_{i=1}^{m}y^{i}\log(h_(x^{i}))+(1-y^{i})\log(1-h_(x^{i})) ]
+
+Anything without  is treated as constant:
+
+ \tag{1} \frac{\partial}{\partial_{j}}J() =  
+-\frac{1}{m}\sum_{i=1}^{m}y^{i}\frac{\partial}{\partial_{j}}[\log(h_(x^{i}))]+(1-y^{i})\frac{\partial}{\partial_{j}}[\log(1-h_(x^{i})) ]
+
+Let&#39;s solve each derivative separately and then plug back in on (1):
+
+\tag{2} \frac{\partial}{\partial_{j}}[\log(h_(x^{i}))] = \frac{1}{h_(x^{i})} \frac{\partial}{\partial_{j}} h_(x^{i})
+
+
+\tag{3} 
+\frac{\partial}{\partial_{j}}[\log(1 - h_(x^{i}))] = 
+\frac{1}{1 - h_(x^{i})} \frac{\partial}{\partial_{j}} (1 -h_(x^{i})  = 
+\frac{-1}{1 - h_(x^{i})} \frac{\partial}{\partial_{j}} h_(x^{i})
+
+
+
+Plug (3) and (2) in (1):
+
+ \frac{\partial}{\partial_{j}}J() =  
+-\frac{1}{m}\sum_{i=1}^{m}y^{i}
+\frac{1}{h_(x^{i})}\frac{\partial}{\partial_{j}} h_(x^{i})
++(1-y^{i})
+\frac{-1}{1 - h_(x^{i})} \frac{\partial}{\partial_{j}} h_(x^{i})
+ ]
+
+\tag{4} \frac{\partial}{\partial_{j}}J() =  
+-\frac{1}{m}\sum_{i=1}^{m}
+[
+\frac{y^{i}}{h_(x^{i})}
+-
+\frac{(1-y^{i})}{1 - h_(x^{i})} 
+ ] *
+\frac{\partial}{\partial_{j}} h_(x^{i})
+
+Notice that using the chain rule, the derivative of the hypothesis function can be understood as 
+\tag{5}\frac{\partial}{\partial_{j}}[\ h_(x^{i})]  =  
+\frac{\partial}{\partial z }[\ h(z)]  *
+\frac{\partial}{\partial_{j}}[\ z()] =  [h(z) * [1 -  h(z) ]] *[x_j^i]
+ 
+
+where
+ 
+
+\frac{\partial}{\partial z }[\ h(z)] = \frac{\partial}{\partial z } \frac{1}{1+e^{-z}}
+= \frac{0 - (1)*(1+e^{-z})&#39;}{(1+e^{-z})^2}
+= \frac{ (e^{-z})}{(1+e^{-z})^2}
+= [\frac{1}{(1+e^{-z})}] * [\frac{ (e^{-z})}{(1+e^{-z})}]
+= [\frac{1}{(1+e^{-z})}] * [1 -\frac{1}{(1+e^{-z})}] =  h(z) * [1 -  h(z) ]
+
+and 
+\frac{\partial}{\partial_{j}}[\ z()]  = \frac{\partial}{\partial_{j}}[\  x^i] = x_j^i 
+
+
+Plug (5) in (4):
+
+
+ \frac{\partial}{\partial_{j}}J() =  
+-\frac{1}{m}\sum_{i=1}^{m}
+[
+\frac{y^{i}}{h_(x^{i})}
+-
+\frac{(1-y^{i})}{1 - h_(x^{i})} 
+ ] *
+ [ h_(x^{i}) * ( 1 -h_(x^{i}))  *  x_j^i ]
+
+Applying some algebra and solving subtraction: 
+
+\frac{\partial}{\partial_{j}}J() =\frac{1}{m}\sum_{i=1}^{m}(h_(x^{i})-y^i)x_j^i
+
+There is a  factor missing on your expected answer.
+
+Hope this helps.

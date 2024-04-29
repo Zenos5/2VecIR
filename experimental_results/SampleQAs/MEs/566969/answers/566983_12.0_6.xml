@@ -1,0 +1,87 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mi>
+   G
+  </mi>
+  <mo>
+   =
+  </mo>
+  <mi>
+   ⟨
+  </mi>
+  <mi>
+   a
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   b
+  </mi>
+  <mo stretchy="false">
+   |
+  </mo>
+  <msup>
+   <mi>
+    a
+   </mi>
+   <mn>
+    2
+   </mn>
+  </msup>
+  <mo>
+   =
+  </mo>
+  <msup>
+   <mi>
+    b
+   </mi>
+   <mn>
+    2
+   </mn>
+  </msup>
+  <mo>
+   ,
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   a
+  </mi>
+  <mi>
+   b
+  </mi>
+  <msup>
+   <mo stretchy="false">
+    )
+   </mo>
+   <mn>
+    2
+   </mn>
+  </msup>
+  <mo>
+   =
+  </mo>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   b
+  </mi>
+  <mi>
+   a
+  </mi>
+  <msup>
+   <mo stretchy="false">
+    )
+   </mo>
+   <mn>
+    2
+   </mn>
+  </msup>
+  <mi>
+   ⟩
+  </mi>
+ </mrow>
+</math>

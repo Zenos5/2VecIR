@@ -1,0 +1,1 @@
+I ca see that this works for ay iteger , but I ca&#39;t figure out why this works, or why the umber  has this property.

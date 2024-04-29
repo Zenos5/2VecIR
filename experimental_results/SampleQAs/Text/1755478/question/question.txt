@@ -1,0 +1,1 @@
+I see many proofs for the [Cayley-Hamilton Theorem](https://en.wikipedia.org/wiki/Cayley%E2%80%93Hamilton_theorem) in textbooks and net, so I want to know how many proofs are there for this [important and applicable](https://mathoverflow.net/questions/232132/applications-of-the-cayley-hamilton-theorem) theorem? 

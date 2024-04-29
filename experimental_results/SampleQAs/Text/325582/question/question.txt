@@ -1,0 +1,25 @@
+I would like to a good (8 bits accuracy) approimation for  in the range . This transform is used for converting linear intensities to SRGB compressed values, so it&#39;s important that I make it run fast.
+
+Plot of function: 
+
+![enter image description here][1]
+
+Using a simple polynomial isn&#39;t practical because
+
+1. the function has lots of high order derivatives
+2. the function is roughly asymptotic to , which is very different from the asymptotic behavior of high order polynomials
+
+I&#39;ve already have code that constructs an arbitrary degree polynomial for any function by minimizing the square error and even for a 10th degree polynomial, the accuracy is still only like 6 significant bits.
+
+Then I learned about rational function approimations, which will have a much better asymptotic behavior. But the problem is I don&#39;t know how to find the optimal coefficients. There&#39;s the Pade formulation which creates an approimation around a single point, but since it doesn&#39;t use global information, it can be a very bad fit overall just like Taylor series.
+
+I had Mathematica create an approimation of the form (a_0 + a_1  + a_2 ^2) / (1 + a_3 ) with PadeApproimant[^(1/2.4), {, 0.2, {3, 2}}], which is much better than a simple 3rd degree polynomial, but still not good enough, so I want to find a globally optimal solution, probably of the same form.
+
+I tried finding a least squares solution like before, but it involves 4 huge, non-linear polynomial equations, that is taking Mathematica forever (I&#39;ve waited 1/2 hour so far) to solve.
+
+Can anyone suggest how to solve those non-linear equations, or another way to find a rational function approimation, or an entirely different approimation?
+
+Thanks for any help
+
+
+  [1]: http://i.stack.imgur.com/19rM9.png

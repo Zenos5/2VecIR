@@ -1,0 +1,5 @@
+The prcpal reaso s because  a fte  dmesoal ector space  oer the feld  there are a object called the bass of the ector space ad usually s deoted by =\lbrace _,_2,\ldots, _\rbrace whch s a specal set wth the property that ay ector \  ca be wrtte uquely as lear combato of elemets of , t s for ay \ , we ca wrte =\sum_{j=}^ \alpha_ _ for \alpha\  ad  a feld.
+
+I partcular  s a ector space wth bass =\lbrace e_,e_2,e_3\rbrace called the caocal bass, where  s the ector of all the etres  except the  coordate whch hae a .
+
+Ad as I tell  a more abstract sese ay ector  ca be wrtte as =\alpha_e_+\alpha_2e_2+\alpha_3e_3 but  egeerg texts the ectors e_,e_2,e_3 are deoted usually by ,j,k

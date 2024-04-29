@@ -1,0 +1,1 @@
+ is easily shown to be the rotation symmetry group of the regular tetrahedron. About each vertex is a cyclic rotation symmetry.

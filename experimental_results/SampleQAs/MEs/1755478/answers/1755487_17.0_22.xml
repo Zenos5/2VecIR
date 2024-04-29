@@ -1,0 +1,81 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <msub>
+   <mi>
+    χ
+   </mi>
+   <mi>
+    N
+   </mi>
+  </msub>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   N
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <msub>
+   <mi>
+    φ
+   </mi>
+   <mi>
+    N
+   </mi>
+  </msub>
+  <mo stretchy="false">
+   (
+  </mo>
+  <msub>
+   <mi>
+    χ
+   </mi>
+   <mi>
+    M
+   </mi>
+  </msub>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   M
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <msub>
+   <mi>
+    φ
+   </mi>
+   <mi>
+    N
+   </mi>
+  </msub>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mn>
+   0
+  </mn>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <mn>
+   0
+  </mn>
+ </mrow>
+</math>

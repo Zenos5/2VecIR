@@ -1,0 +1,5 @@
+A vector space quotient is a very simple projection when viewed in an appropriate basis. Namely, any basis of the subspace U may be extended to a basis of the whole space V. Then modding out by U amounts to zeroing out the components of the basis corresponding to U, i.e. projecting onto the complementary subspace formed by all the other components. 
+
+For example, consider the vector space  of formal power series with real coefficients. Modding out by the subspace of odd series  corresponds to projecting onto the subspace of even power series  i.e. taking the even part of a power series (and vice versa). Combining the two yields the decomposition of a series as the sum of its even and odd parts. 
+
+Similarly, modding out by  corresponds to projecting onto the subspace of constant series , i.e. &quot;evaluating&quot; at . Modding out by  corresponds to projecting onto the &quot;tangent&quot; space  via  first-order Taylor approximant. 

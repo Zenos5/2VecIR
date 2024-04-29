@@ -1,0 +1,13 @@
+This doesn&#39;t want to be a complete answer, but just a hint to understand the problem a bit better.
+
+Note that the commutativity  is equivalent (when  is invertible) to =^{-1}.
+
+On the other hand conjugate matrices represent the same endomorphism of the underlying vector space with respect to different basis. Thus =^{-1} means that the endomorphism corresponding to  has the same matrix representation when the base changed by .
+
+How could that be possible?
+
+If  is diagonalizable, i.e. the vector space admits a basis of eigenvectors, with *distinct* eigenvalues, the only way that we can modify the basis and leave  as matrix representing the endomorphism is to the effect of replacing the eigenvectors with some multiples. This corresponds to the situation where the only matrices commuting with  are the linear combinations of its powers.
+
+On the other hand, if there is an eigenspace  of dimension  we can replace any choice of basis of  with any other, and the matrix representing the endomorphism will be left the same. Thus we should expect more matrices commuting with  in this case.
+
+Hope this helps understanding the problem.

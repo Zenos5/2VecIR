@@ -1,0 +1,33 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mover>
+   <mrow>
+    <mi>
+     i
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mi>
+   ·
+  </mi>
+  <mover>
+   <mrow>
+    <mi>
+     j
+    </mi>
+   </mrow>
+   <mo stretchy="false">
+    ^
+   </mo>
+  </mover>
+  <mo>
+   =
+  </mo>
+  <mn>
+   0
+  </mn>
+ </mrow>
+</math>

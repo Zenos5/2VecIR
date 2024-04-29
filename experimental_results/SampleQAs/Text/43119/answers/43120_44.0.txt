@@ -1,0 +1,3 @@
+The most popular example I kow comes from Cryptography, where may systems rely o problems i umber theory, where primes have a importat role (sice primes are i a sese the &quot;buildig blocks&quot; of umbers).
+
+Take for example the RSA ecryptio system: All arithmetic is doe modulo , with =pq ad  large primes. Decryptio i this system relies o computig Euler&#39;s phi fuctio, \varphi(), which is hard to compute (hece the system is hard to break) **uless** you kow the prime factorizatio of  (which is also hard to compute uless you kow it upfrot). Hece you eed a method to geerate primes (the Miller-Rabi primality checkig algorithm is usually used here) ad the you costruct  by multiplyig the primes you have foud.

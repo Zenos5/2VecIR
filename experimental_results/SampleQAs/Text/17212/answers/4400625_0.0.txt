@@ -1,0 +1,38 @@
+# Yes.
+
+If every statemet was decidable, that would imply that every statemet could be prove true or false, which cotradicts [G&#246;del&#39;s first icompleteess theorem][1].
+
+If every statemet&#39;s decidability was decidable, that would imply that every statemet could be prove true, false, or udecidable.  We could the defie a method of classifyig all statemets as true or false: Eumerate all statemets: Whe oe is prove udecidable, add a axiom sayig it is false.  This is kow as a [Hilbert program][2] ad agai was prove impossible by [G&#246;del&#39;s first icompleteess theorem][1].
+
+Ad so o for -udecidable statemets.
+
+----
+
+### Proof of secod setece
+
+Let  deote &quot;we ca prove S is decidable&quot;.
+
+If we prove S, the we kow that S is decidable.  If we disprove S, the we kow that S is decidable. I.e.:
+
+
+S \implies , \ \ \ \eg S \implies 
+
+
+I the same fashio: If we prove , the we kow that  is decidable. If we disprove , the we kow that  is decidable.
+
+
+\ \ \  \implies \ \ d(), \ \ \ \ \ \eg  \implies \ \ \ d()
+
+
+The lie above implies (by modus tolles o each) that:
+
+
+\eg   \impliedby \eg d(), \ \ 
+\eg\eg  \impliedby \eg d()
+
+
+So we coclude that if the decidability of S is itself udecidable, the: we ca&#39;t prove S is decidable ad we ca&#39;t prove S is udecidable.
+
+
+  [1]: https://e.wikipedia.org/wiki/G%C3%B6del%27s_icompleteess_theorems
+  [2]: https://e.wikipedia.org/wiki/Hilbert%27s_program

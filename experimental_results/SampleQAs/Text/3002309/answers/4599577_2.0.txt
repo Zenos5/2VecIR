@@ -1,0 +1,22 @@
+No need multiple-integrals, no need Feynman&#39;s trick
+\begin{align}J&amp;=\int_0^1 \frac{\ln(1+x-x^2)}{x}dx\overset{\text{IBP}}=-\int_0^1 \frac{(1-2x)\ln x}{1+x(1-x)}dx\\
+&amp;=-\int_0^{\frac{1}{2}} \frac{(1-2x)\ln x}{1+x(1-x)}dx-\int_{\frac{1}{2}}^1 \frac{(1-2x)\ln x}{1+x(1-x)}dx\\
+&amp;\overset{u=x(1-x)}=-\int_0^{\frac{1}{4}}\frac{\ln\left(\frac{1-\sqrt{1-4u}}{2}\right)}{1+u}du+\int_0^{\frac{1}{4}}\frac{\ln\left(\frac{1+\sqrt{1-4u}}{2}\right)}{1+u}du\\
+&amp;=-\int_0^{\frac{1}{4}}\frac{\ln\left(\frac{1-\sqrt{1-4u}}{1+\sqrt{1-4u}}\right)}{1+u}du\overset{z=\sqrt{1-4u}}=2\int_0^1 \frac{z\ln\left(\frac{1-z}{1+z}\right)}{z^2-5}dz\\
+&amp;=\int_0^1 \frac{\ln\left(\frac{1-z}{1+z}\right)}{z-\sqrt{5}}dz+\int_0^1 \frac{\ln\left(\frac{1-z}{1+z}\right)}{z+\sqrt{5}}dz\\
+&amp;\overset{x=\frac{1-z}{1+z}}=-2\int_0^1 \frac{\ln x}{(1+x)\left((\sqrt{5}+1)x+\sqrt{5}-1\right)}+2\int_0^1 \frac{\ln x}{(1+x)\left((\sqrt{5}-1)x+\sqrt{5}+1\right)}\\
+&amp;=-\frac{\sqrt{5}+1}{\sqrt{5}-1}\int_0^1 \frac{\ln x}{\frac{\sqrt{5}+1}{\sqrt{5}-1}x+1}dx-\frac{\sqrt{5}-1}{\sqrt{5}+1}\int_0^1 \frac{\ln x}{\frac{\sqrt{5}-1}{\sqrt{5}+1}x+1}dx+2\int_0^1 \frac{\ln x}{1+x}dx
+\end{align}
+Let ,
+\begin{align}J&amp;=\underbrace{-\rho\int_0^1 \frac{\ln x}{\rho x+1}dx}_{u=\rho x}-\underbrace{\frac{1}{\rho}\int_0^1 \frac{\ln x}{\frac{x}{\rho}+1}dx}_{u=\frac{1}{\rho}}+2\int_0^1 \frac{\ln x}{1+x}dx\\
+&amp;=-\int_0^\rho \frac{\ln\left(\frac{u}{\rho}\right)}{1+u}du-\int_0^{\frac{1}{\rho}} \frac{\ln\left(\rho u\right)}{1+u}du+2\int_0^1 \frac{\ln x}{1+x}dx\\
+&amp;=-\int_0^\rho \frac{\ln u}{1+u}du-\int_0^{\frac{1}{\rho}} \frac{\ln u}{1+u}du+\ln^2\rho+2\int_0^1 \frac{\ln x}{1+x}dx\\
+&amp;=\int_\rho^1 \frac{\ln u}{1+u}du-\underbrace{\int_1^{\frac{1}{\rho}} \frac{\ln u}{1+u}du}_{z=\frac{1}{u}}+\ln^2\rho\\
+&amp;=\int_\rho^1 \frac{\ln u}{1+u}du+\int_\rho^1\frac{\ln z}{z(1+z)}+\ln^2\rho\\
+&amp;=\int_\rho^1\frac{\ln u}{u}du+\ln^2\rho=\left[\frac{\ln^2 u}{2}\right]_\rho^1+\ln^2\rho=\frac{1}{2}\ln^2\rho\\
+\end{align}
+Moreover, 
+Let , then,
+\begin{align}=\frac{\left(\sqrt{5}+1\right)^2}{\left(\sqrt{5}-1\right)\left(\sqrt{5}+1\right)}=\frac{\left(\sqrt{5}+1\right)^2}{4}=\varphi^2\end{align}
+Therefore,
+\begin{align}J=\frac{1}{2}\ln^2\rho=\boxed{2\ln^2\varphi}\end{align}

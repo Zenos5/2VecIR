@@ -1,0 +1,72 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mspace width="0.167em">
+  </mspace>
+  <mi>
+   ϕ
+  </mi>
+  <mo stretchy="false">
+   (
+  </mo>
+  <msubsup>
+   <mi>
+    p
+   </mi>
+   <mi>
+    i
+   </mi>
+   <mrow>
+    <msub>
+     <mi>
+      e
+     </mi>
+     <mi>
+      i
+     </mi>
+    </msub>
+   </mrow>
+  </msubsup>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <mn>
+   1
+  </mn>
+  <mo>
+   ,
+  </mo>
+  <mn>
+   2
+  </mn>
+  <mo>
+   ,
+  </mo>
+  <mn>
+   6
+  </mn>
+  <mo>
+   ∣
+  </mo>
+  <mi>
+   f
+  </mi>
+  <mspace width="negativethinmathspace">
+  </mspace>
+  <mo>
+   =
+  </mo>
+  <mspace width="negativethinmathspace">
+  </mspace>
+  <mn>
+   6
+  </mn>
+  <mo>
+   ,
+  </mo>
+  <mspace width="0.167em">
+  </mspace>
+ </mrow>
+</math>

@@ -1,0 +1,2 @@
+ is , not .  
+Because eventually the only solution is , the RHS  is negative (), so taking the square root of ()^2 is actually , which is eactly what  gives you.

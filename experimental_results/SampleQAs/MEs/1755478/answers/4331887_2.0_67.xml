@@ -1,0 +1,64 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mrow>
+   <mo fence="true" form="prefix" stretchy="true">
+    [
+   </mo>
+   <mstyle scriptlevel="1">
+    <mtable columnspacing="0.2778em" rowspacing="0.1em">
+     <mtr>
+      <mtd>
+       <mi>
+        X
+       </mi>
+      </mtd>
+      <mtd>
+       <mi>
+        a
+       </mi>
+       <mi>
+        m
+       </mi>
+       <mi>
+        p
+       </mi>
+       <mi>
+        ;
+       </mi>
+       <mi>
+        Y
+       </mi>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <mn>
+        0
+       </mn>
+      </mtd>
+      <mtd>
+       <mi>
+        a
+       </mi>
+       <mi>
+        m
+       </mi>
+       <mi>
+        p
+       </mi>
+       <mi>
+        ;
+       </mi>
+       <mi>
+        Z
+       </mi>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mstyle>
+   <mo fence="true" form="postfix" stretchy="true">
+    ]
+   </mo>
+  </mrow>
+ </mrow>
+</math>

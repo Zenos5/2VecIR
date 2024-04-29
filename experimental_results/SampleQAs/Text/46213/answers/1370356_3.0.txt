@@ -1,0 +1,8 @@
+Lang&#39;s Real and Functional Analysis
+
+In my opinion, his treatment o integration is the best one I have ever seen.
+Usually an author o a textbook on measure theory deines irst  or non-negative extended real valued unctions (see Rudin or example). Then he deines  or extended real valued unctions. And then he deines it or complex valued unctions.
+On the other hand, Lang deines it or real or complex valued unctions all at once.
+And his method also applies without any modiication to unctions taking values in a Banach space.
+Most o all, his method is simple, clear and natural.
+Halmos uses a similar method, but I think Lang is simpler, clearer and more natural.

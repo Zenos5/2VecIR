@@ -1,0 +1,165 @@
+
+Inactive Modules:
+  1) defaultenv     2) lmod
+
+/home/aw742/Word2vec/doc2vec/doc2vec.py:24: MarkupResemblesLocatorWarning: The input looks more like a filename than markup. You may want to open this file and pass the filehandle into Beautiful Soup.
+  soup = BeautifulSoup(text, features="html.parser")
+/home/aw742/Word2vec/doc2vec/doc2vec.py:24: MarkupResemblesLocatorWarning: The input looks more like a URL than markup. You may want to use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  soup = BeautifulSoup(text, features="html.parser")
+Processing
+[TaggedDocument(words=['this', 'is', 'true', 'for', 'free', 'groups', 'and', 'for', 'surface', 'groups', 'in', 'fact', 'in', 'the', 'stunningly', 'beautiful', 'paper', 'edna', 'rossman', 'proved', 'the', 'following', 'theorem', 'if', 'is', 'finitely', 'generated', 'conjugacy', 'separable', 'group', 'with', 'every', 'class', 'preserving', 'automorphism', 'inner', 'then', 'operatorname', 'out', 'is', 'residually', 'finite', 'mentioned', 'that', 'surface', 'groups', 'satisfy', 'this', 'property', 'while', 'they', 'are', 'also', 'conjugacy', 'separable', 'hence', 'their', 'outer', 'automorphism', 'groups', 'are', 'residually', 'finite', 'however', 'their', 'outer', 'automorphism', 'groups', 'are', 'of', 'particular', 'interest', 'they', 'are', 'mapping', 'class', 'groups', 'so', 'we', 'have', 'the', 'following', 'corollary', 'mapping', 'class', 'groups', 'of', 'compact', 'orientable', 'surfaces', 'are', 'residually', 'finite', 'rossman', 'edna', 'on', 'the', 'residual', 'finiteness', 'of', 'certain', 'mapping', 'class', 'groups', 'lond', 'math', 'soc', 'doi', 'https', 'doi', 'org', 'jlms'], tags=['4075551_4076106_4']), TaggedDocument(words=['unless', 'have', 'made', 'mistake', 'the', 'group', 'of', 'order', 'isomorphic', 'to', 'langle', 'rangle', 'is', 'counterexample', 'of', 'minimal', 'order', 'the', 'automorphism', 'rightarrow', 'is', 'not', 'inner', 'but', 'preserves', 'all', 'conjugacy', 'classes'], tags=['4075551_4076175_6'])]
+[['given', 'group', 'the', 'set', 'of', 'automorphisms', 'of', 'also', 'forms', 'group', 'with', 'composition', 'as', 'the', 'operation', 'an', 'inner', 'automorphism', 'is', 'one', 'determined', 'by', 'conjugation', 'by', 'some', 'element', 'in', 'that', 'we', 'have', 'the', 'automorphism', 'given', 'by', 'ghg', 'forall', 'learned', 'from', 'comment', 'by', 'leemosher', 'on', 'this', 'site', 'that', 'burnside', 'once', 'conjectured', 'that', 'any', 'class', 'preserving', 'automorphism', 'is', 'inner', 'does', 'anyone', 'know', 'about', 'any', 'progress', 'on', 'this', 'of', 'course', 'the', 'converse', 'is', 'trivial', 'btw', 'the', 'reference', 'here', 'is', 'to', 'conjugacy', 'classes', 'of', 'course', 'the', 'class', 'equation', 'gives', 'the', 'sizes', 'of', 'these', 'classes', 'for', 'example', 'in', 'the', 'case', 'of', 'finite', 'abelian', 'group', 'the', 'class', 'equation', 'consists', 'in', 'all', 'ones', 'for', 'reference', 'this', 'would', 'have', 'been', 'early', 'in', 'the', 'th', 'century'], ['problem', 'evaluate', 'my', 'progress', 'have', 'actually', 'solved', 'the', 'problem', 'but', 'fear', 'that', 'may', 'not', 'have', 'used', 'the', 'desired', 'methods', 'using', 'substitution', 'we', 'can', 'rewrite', 'the', 'integral', 'and', 'get', 'then', 'we', 'need', 'to', 'evaluate', 'the', 'limit', 'now', 'this', 'is', 'where', 'think', 'my', 'solution', 'differs', 'from', 'the', 'intended', 'method', 'which', 'don', 'know', 'what', 'is', 'when', 'evaluate', 'the', 'above', 'limit', 'realize', 'that', 'has', 'vertical', 'asymptote', 'for', 'which', 'means', 'that', 'has', 'horizontal', 'asymptote', 'for', 'and', 'is', 'continuously', 'increasing', 'then', 'since', 'we', 'can', 'conclude', 'that', 'which', 'gives', 'the', 'final', 'answer', 'left', 'lim', 'limits_', 'to', 'infty', 'arctan', 'right', 'arctan', 'frac', 'pi', 'frac', 'pi', 'underline', 'underline', 'frac', 'pi', 'my', 'question', 'is', 'there', 'more', 'calculating', 'way', 'of', 'evaluating', 'the', 'aforementioned', 'limit', 'using', 'some', 'general', 'rules', 'of', 'limits', 'rather', 'than', 'intuition', 'bear', 'in', 'mind', 'like', 'my', 'own', 'solution', 'it', 'was', 'satisfying', 'just', 'feel', 'like', 'there', 'is', 'something', 'else', 'should', 'know', 'which', 'missing', 'out', 'on']]
+
+TRAIN
+Word 'statistics' appeared 115 times in the training corpus.
+iteration 0
+Model Saved
+iteration 1
+iteration 2
+iteration 3
+iteration 4
+iteration 5
+Model Saved
+iteration 6
+iteration 7
+iteration 8
+iteration 9
+iteration 10
+Model Saved
+iteration 11
+iteration 12
+iteration 13
+iteration 14
+iteration 15
+Model Saved
+iteration 16
+iteration 17
+iteration 18
+iteration 19
+iteration 20
+Model Saved
+iteration 21
+iteration 22
+iteration 23
+iteration 24
+iteration 25
+Model Saved
+iteration 26
+iteration 27
+iteration 28
+iteration 29
+iteration 30
+Model Saved
+iteration 31
+iteration 32
+iteration 33
+iteration 34
+iteration 35
+Model Saved
+iteration 36
+iteration 37
+iteration 38
+iteration 39
+iteration 40
+Model Saved
+iteration 41
+iteration 42
+iteration 43
+iteration 44
+iteration 45
+Model Saved
+iteration 46
+iteration 47
+iteration 48
+iteration 49
+Model Saved
+[-0.06941106 -0.05860934 -0.04690555  0.03353563 -0.03854822  0.02647273
+ -0.06787449  0.00856544 -0.02847331 -0.03453346  0.05372308 -0.0163987
+ -0.04980963 -0.00242908  0.00608527  0.03574207 -0.01366728 -0.00498517
+ -0.09804323  0.02743267  0.02369606 -0.09015036 -0.14441614  0.08872756
+  0.04719535  0.11953327  0.1096838  -0.007863    0.00417472 -0.01972588
+ -0.03257895  0.17269832 -0.06944722  0.09747311 -0.07694741  0.10469979
+ -0.02353114 -0.03853136  0.01683035  0.06100913 -0.00247615  0.01097791
+ -0.02241045  0.01774894  0.05574716 -0.03454643 -0.06955297 -0.00124636
+ -0.02319342 -0.02525132]
+Finished setting up/training the model
+
+TEST
+Test Document (2063): «for the standard form since the and directions are different why are we allowed to write them this way isn addition only allowed between alike quantities values along the same direction»
+
+4355369
+SIMILAR/DISSIMILAR DOCS PER MODEL Doc2Vec<dbow,d50,n5,mc2,s0.001,t3>:
+
+MOST ('109106_4418792_0', 0.8738167881965637): «in more detail and sticking by the definition iff in this setting our groups are abelian so we can rewrite iff we can choose to be represented by the copy in this case that means that the difference the two points are in the same line through the origin through the origin this means the elements of the quotient are up to rotation all the horizontal lines or equivalently all parallel lines»
+
+MEDIAN ('4238019_4240590_0', 0.5148710608482361): «for polynomial sum_ infty c_n you find coefficient at as now if you have composite function there is well known expression faà di bruno formula which can be reduced to something simpler for your case in general if sum limits_ infty a_n and sum limits_ infty b_n then sum_ infty c_n where applied to your case c_ sum_ in p_ infty a_k prod_ a_ i_k p_ i_ i_ cdots i_k leq leq sum_ i_m but all your unless when which is to say in how many ways you can uniquely represent as sum of using terms that counting or similar you cannot avoid»
+
+LEAST ('566969_4426046_0', -0.4622277319431305): «»
+
+Test Document (3350): «was reading up on the fibonacci sequence when noticed some were able to calculate specific numbers so far ve only figured out creating an array and counting to the value which is incredibly simple but reckon can find any formula for calculating fibonacci number based on it position is there way to do this if so how are we able to apply these formulas to arrays»
+
+8
+SIMILAR/DISSIMILAR DOCS PER MODEL Doc2Vec<dbow,d50,n5,mc2,s0.001,t3>:
+
+MOST ('43119_43144_16', 0.8518878817558289): «just to add one more primes are also useful when generating pseudo random numbers with the computer few formulas use them to avoid patterns in the output»
+
+MEDIAN ('4593991_4594156_1', 0.4725077152252197): «another variation we observe that and imply letting we have begin cases ux end cases then setting under the restriction we have begin align begin cases frac end cases implies implies frac sqrt end align this completes the answer»
+
+LEAST ('566969_4426046_0', -0.2745155990123749): «»
+
+True Answers to Question 8
+2275
+('8_17_28', 0.6175114512443542): «wikipedia has closed form function called binet formula http en wikipedia org wiki this is based on the golden ratio»
+
+493
+('8_24_5', 0.6980293393135071): «the closed form calculation for fibonacci sequences is known as binet formula http mathworld wolfram com html»
+
+813
+('8_26_4', 0.6732167601585388): «you can use binet formula described at http mathworld wolfram com html see also wikipedia for proof http en wikipedia org wiki binet_formula»
+
+195
+('8_319_34', 0.7357214093208313): «lot of people have mentioned binet formula but suspect this is not the most practical way to compute the nth fibonacci number for large because it requires either having very accurate value of and carrying around lots of decimal places if you want to do floating point arithmetic or expanding large powers of using the binomial formula the latter comes out to writing the fibonacci number as sum of binomial coefficients the following formulas hold though which you can find derivations of in href http en wiipedia org wii the wiipedia article on fibonacci numbers this lets you find for any even or odd in terms of two fibonacci numbers with approximately half the index the result is faster than binet formula»
+
+5812
+('8_931_32', 0.5537959933280945): «also you ca use the href http wikipedia org wiki fiboacci_umber matrix_form matrix equatio for fiboacci umbers begi pmatrix ed pmatrix begi pmatrix f_ f_ f_ f_ ed pmatrix to calculate th power of the matrix you ca use href http wikipedia org wiki expoetiatio by squarig algorithm this approach could also be geeralized the case of arbitrary sequece with liear recurrece relatio»
+
+804
+('8_934_4', 0.6738681793212891): «to expand on falagar answer my favourite proof of binet formula which was going to post summary of here but remembered that everything was awful without tex so here is link to some notes on it found on google the basic idea is to treat pairs of fibonnacci numbers adjacent in the sequence as vectors moving on to the next adjacent pair induces linear transformation not unlike that of the matrix falagar posted calculating eigenvalues and eigenvectors can give complete prediction of where an initial vector will find itself predicting the whole sequence it quite lot of work but think it rather illuminating http livetoad org courses documents notes pdf»
+
+6456
+('8_396100_3', 0.545023500919342): «there erfectly general way for this sort of roblem used it to look for instances of such that if divided fibonacci number so did there are none under twenty million twelftywise this method can be used with modular arithmetic into the hundreds of millions these are number of different series the fibonacci lucas series the side and diagonal of the square aroximate and heron triangle it written in the rexx rogramming language the actual rocess is to be found in the isoquad routine which extends an isoseries ie form the actual equation as written gives t_ given in order t_ t_ it relies on that any isoseries one can take stes of and thus take the actual rocess is like this the examle is to find numbers in brackets are the members of the original we halve out the and increase the ste constant to this is the difference between the values in the second and third columns are as one divides into binary diff role by col regular owers kee odd laces kee even laces kee odd laces kee even laces kee even laces so answer in the actual method is similar to finding by binary methods and runs at of the seed of said rocess by adjusting the nature of the multilication to be modulus one can test to see if something like is multile of or not the heron series with set to large owers of is used to find fermat rimes by this very method fibon rocedure arse arg return isoquad div mod mod lucas rocedure arse arg return isoquad div mod mod qside rocedure arse arg return isoquad div mod mod qdiag rocedure arse arg return isoquad div mod heron rocedure arse arg return isoquad div rocedure arse arg if then return mod rocedure arse arg if then return isoquad rocedure arse arg if then do end if then do end do forever if then leave if then else do end end return»
+
+3202
+('8_3693845_3', 0.5964125394821167): «this is an old post but still the relation f_ f_ f_n f_ f_ ge defines linear second order homogeneous difference equation the solution can be found after computing the roots of the associated characteristic polynomial which are the general solution is then given by f_n c_ left frac sqrt right c_ left frac sqrt right and the constants are computed knowing that so finally f_n frac sqrt left frac sqrt right frac sqrt left frac sqrt right this is obviously equivalent to binet formula but provides general process to deal with linear recurrences»
+
+Tested the model
+
+EVAL
+
+Test Document (2826, 17212): «we know there are statements that are undecidable independent of zfc can there be statement such that zfc and zfc is undecidable»
+
+SIMILAR/DISSIMILAR DOCS PER MODEL Doc2Vec<dbow,d50,n5,mc2,s0.001,t3>:
+
+MOST ('17212_17266_24', 0.8352644443511963): «at least one version of this question has nearly trivial answer if you want to know if there some statement such that zfc or your pa compatible logic system of choice doesn prove zfc doesn prove and we can prove that zfc doesn prove or not then any undecideable statement works specifically it impossible for zfc to prove that it can prove something because such statement is tantamount to the consistency of zfc if zfc were inconsistent then it could prove everything so proving that there something that can be proved is equivalent to proving the consistency of zfc and of course this is forbidden by the second incompleteness theorem»
+
+MEDIAN ('40320_3679623_3', 0.37457937002182007): «if then is matrix norm furthermore for any matrix norm theorem in the first edition of horn and johnson matrix nalysis if is stochastic then begin vmatrix end vmatrix infty so that vert lambda vert le rho le»
+
+LEAST ('2564251_2564265_2', -0.43831104040145874): «»
+
+
+True Answers to Question 17212
+0
+('17212_17266_24', 0.8352644443511963): «at least one version of this question has nearly trivial answer if you want to know if there some statement such that zfc or your pa compatible logic system of choice doesn prove zfc doesn prove and we can prove that zfc doesn prove or not then any undecideable statement works specifically it impossible for zfc to prove that it can prove something because such statement is tantamount to the consistency of zfc if zfc were inconsistent then it could prove everything so proving that there something that can be proved is equivalent to proving the consistency of zfc and of course this is forbidden by the second incompleteness theorem»
+
+79
+('17212_217651_3', 0.7189405560493469): «this answer is response to simon answer it trivial to show that any statement that undecidable is undecidable for instance take any statement then suppose is decidable then its undecidability is decidable suppose the undecidability of is undecidable then from is undecidable suppose the undecidability of is undecidable but the undecidability of its undecidability is decidable then it can be shown that the undecidability of is undecidable and from this means it can be shown that is undecidable thus the undecidability of is decidable which contradicts the assumption that the undecidability of is undecidable thus for any statement if its undecidability is undecidable necessairily the undecidability of it undecidability is undecidable it can also be shown that if is undecidable then it undecidable as follows let be the statement is undecidable now suppose is undecidable then is undecidable so is undecidable so is undecidable»
+
+1022
+('17212_4400625_0', 0.5982504487037659): «yes if every statemet was decidable that would imply that every statemet could be prove true or false which cotradicts gödel first icompleteess theorem if every statemet decidability was decidable that would imply that every statemet could be prove true false or udecidable we could the defie method of classifyig all statemets as true or false eumerate all statemets whe oe is prove udecidable add axiom sayig it is false this is kow as hilbert program ad agai was prove impossible by gödel first icompleteess theorem ad so for udecidable statemets proof of secod setece let deote we ca prove is decidable if we prove the we kow that is decidable if we disprove the we kow that is decidable implies eg implies the same fashio if we prove the we kow that is decidable if we disprove the we kow that is decidable implies eg implies the lie above implies by modus tolles each that eg impliedby eg eg eg impliedby eg so we coclude that if the decidability of is itself udecidable the we ca prove is decidable ad we ca prove is udecidable https wikipedia org wiki del https wikipedia org wiki hilbert s_program»
+
+5
+('17212_17270_8', 0.7844062447547913): «zhen independence is with respect to zfc given any sentence either zfc proves in which case it is theorem of zfc that zfc proves or zfc does not prove in this case zfc is consistent and zfc does not know that it does not prove or else it would know that it is consistent and therefore it wouldn be but then it would prove so in this case zfc does not prove that it does not prove and does not prove that it proves it follows easily that zfc proves is independent of zfc for any for which zfc does not prove to ask whether the statement zfc proves or variant of this such as zfc does not prove and does not prove not is decidable on the other hand is silly unless you are using the term in strange fashion for any there is turing machine with no input that outputs the truth value of the statement you do not ask for the decidability of single statement but of family of statements say with as parameter you probably need to clarify what you mean the only sensible way of understanding what you are asking is to take the set whose sole element is sentence formalizing the statement and asking whether that set is decidable but of course it is as any finite set of natural numbers is trivially decidable perhaps more interesting is whether calling the formalization of the statement in quotes the set mid is decidable now suppose first that zfc is inconsistent then zfc proves anything so all the statements are false hence the set is obviously decidable suppose now that zfc is consistent let be undecidable then if machine solves it would tell us upon inputting that is independent since the set of independent of zfc statements is independent we are done is undecidable perhaps you want to know whether zfc proves that is decidable or if it proves that is undecidable note that if zfc proves that is undecidable then the argument above formalized within zfc tells us that zfc knows that zfc is consistent in this case zfc is inconsistent and it proves anything suppose then that zfc proves that is decidable this is possible if zfc is inconsistent so suppose that zfc is consistent then the argument above tells us that zfc proves that zfc is inconsistent this is not expected to be the case as it tells us that zfc is wrong about arithmetic statements if zfc is true theory meaning if the arithmetic consequences of zfc are true about the natural numbers then zfc cannot prove that is decidable and is decidable is independent of course if zfc is not true theory do not think it is too interesting whether it proves something or other about we can further complicate things by considering models of zfc and checking whether the model thinks that zfc proves that is decidable or not or any of the posisble variants suggested above we can in fact assuming mild consistency requirements on zfc check that there are models of zfc that disagree on whether zfc proves that is decidable proves that it is undecidable or does not prove either»
+
+78
+('17212_932689_-1', 0.7201583385467529): «yes this is true for any first order statement by church theorem not just statements with respect to zfc first order logic is semidecidable in that every first order statement that can be proven has sound complete proof calculus valid statements will always be decidable and can always be proven though this may take quite bit of computation satisfiability is undecidable in general however if statement is satisfiable sometimes it can be shown to be satisfiable with finite models or forcing if the statement itself and it negation is demonstrably satisfiable then you ve just proved the statement isn universally valid statement however one of the result of church theorem proves that there no algorithm that you can rely on to terminate trying to check for satisfiability of an arbitrary first order statement because otherwise it would solve the»
+

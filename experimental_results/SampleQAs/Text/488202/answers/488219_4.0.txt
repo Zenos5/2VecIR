@@ -1,0 +1,5 @@
+You cn lso do this without using Sylow&#9;s theorems t ll. Since , the Sylow -subgroups must hve order , which mens tht ech Sylow -subgroup is generted by n element of order .
+
+Now, n element of order  must be  product of disjoint -cycles. Since we only hve  points to ct on, we cn&#9;t squeeze more thn one -cycle there. Therefore, n element of order  must simply be  -cycle.
+
+Let&#9;s recp: we now know tht ech Sylow -subgroup is of the form , where  is  -cycle. Now you cn just look t ll the -cycles nd the groups they generte. You&#9;ll see immeditely tht there re 8 cycles, nd they generte  groups: \lngle (1\ 2\ ) \rngle = \lngle (\ 2\ 1) \rngle, \lngle (2\ \ ) \rngle = \lngle (\ \ 2) \rngle, \lngle (1\ 2\ ) \rngle = \lngle (\ 2\ 1) \rngle, \lngle (1\ \ ) \rngle = \lngle (\ \ 1) \rngle. So the nswer is .

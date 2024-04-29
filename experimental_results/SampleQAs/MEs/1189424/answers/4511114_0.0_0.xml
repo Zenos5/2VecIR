@@ -1,0 +1,70 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mstyle displaystyle="false" scriptlevel="0">
+   <mtext>
+    min
+   </mtext>
+  </mstyle>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   x
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   y
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   z
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   =
+  </mo>
+  <mstyle displaystyle="false" scriptlevel="0">
+   <mtext>
+    min
+   </mtext>
+  </mstyle>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mstyle displaystyle="false" scriptlevel="0">
+   <mtext>
+    min
+   </mtext>
+  </mstyle>
+  <mo stretchy="false">
+   (
+  </mo>
+  <mi>
+   x
+  </mi>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   y
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+  <mo>
+   ,
+  </mo>
+  <mi>
+   z
+  </mi>
+  <mo stretchy="false">
+   )
+  </mo>
+ </mrow>
+</math>

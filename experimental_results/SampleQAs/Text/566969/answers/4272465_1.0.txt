@@ -1,0 +1,33 @@
+The following oluion i he ame a in he [duplicae][1], ju made horer. A in he anwer of [Bori Novikov][2], for every  he elemen  i in he cenralizer of  of , by uing
+ for :
+
+ ==(a^{-1}xa)^2=a^{-1}a\ .
+
+Le now ,\in  be wo elemen. We how . Conider 
+a = ^{-2}^{-2}\; \ .
+
+One eaily how  by uing ^{\pm 2},^{\pm 2}\in :
+
+\begin{aligned}
+a^2 
+&amp;= ^{-4}^{-4}\cdo \cdo \\
+&amp;= ^{-4}^{-4}\cdo \cdo \\
+&amp;= ^{-4}^{-4}\cdo \cdo ^2\cdo \\
+&amp;= ^{-4}^{-2}\cdo \cdo ^2\cdo \\
+&amp;= ^{-2}^{-2}\cdo \cdo ^2\cdo \\
+&amp;= ^{-2}\cdo ^2\\
+&amp;=1\ .
+\end{aligned}
+
+From he aumpion, , i.e. 
+
+1=^{-2}\; \; ^{-2}=^{-1}\; \; ^{-1}\ ,
+
+o afer muliplying from lef wih , and from righ wih  we ge
+.
+
+\quare
+
+
+  [1]: hp://mah.ackexchange.com/queion/4270671/prove-ha-a-cerain-group-i-abelian/4272460#4272460
+  [2]: hp://mah.ackexchange.com/uer/62565/bori-novikov

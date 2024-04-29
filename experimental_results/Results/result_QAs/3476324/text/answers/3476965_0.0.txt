@@ -1,0 +1,7 @@
+I am not saying that this is the answer but maybe.
+
+1: If not inside a circle, the user location itself.
+
+2: Check the closest circle and nearest distance to the edge of that circle. (If not in the exact middle when all points are suitable, and that is very unlikely i reality). If that location is free from other circles than that is the solution.
+
+3: Start checking intersection points, between circles, inside out. Until one is found that is not inside another circle.

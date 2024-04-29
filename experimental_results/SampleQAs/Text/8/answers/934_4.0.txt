@@ -1,0 +1,10 @@
+To expand on falagar&#39;s answer, my favourite proof of Binet&#39;s formula:
+
+...Which I was going to post a summary of here, but remembered that everything was awful without Tex, so here is a link to [some notes on it I found on google][1].
+
+The basic idea is to treat pairs of fibonnacci numbers, adjacent in the sequence, as vectors. Moving on to the next adjacent pair induces a linear transformation not unlike that of the matrix falagar posted. Calculating eigenvalues and eigenvectors can give a complete prediction of where an initial vector will find itself, predicting the whole sequence.
+
+It&#39;s quite a lot of work but I think it&#39;s rather illuminating.
+
+
+  [1]: http://livetoad.org/Courses/Documents/132d/Notes/fibonacci_matrix.pdf

@@ -1,0 +1,24 @@
+[![enter image description here][1]][1]
+
+Another way in which this question is interpreted is to consider what taking square-roots does to the pair of equations.  The system  is a pair of &quot;horizontal&quot; parabolas, both of which &quot;open to the right&quot; and have their vertices at  and   Upon taking square-roots, each equation produces a pair of equations, each of which is represented by one &quot;arm&quot; of each parabola:
+
+ 
+ 
+
+(**ryang** shows these equations expressed in terms of absolute-value curves, which appear as &quot;V&quot;-shapes.)
+
+There are then four possible pairings of these equations for the arms of the two parabolas:
+ 
+We use both the positive and negative square-roots here because they are both consistent with the original set of equations,  
+
+The intersection equation that is sensible in &quot;standard algebra&quot; is the &quot;red/green&quot; equation,  because it produces the finite value  [the intersection point   We accept this solution because 
+
+The &quot;red/blue&quot; and &quot;orange/green&quot; equations do not have solutions in standard algebra because there is *no finite number* that will make the left and right sides of  or  equal.  We see this on the graph as the lack of intersections between the corresponding arms of the parabolas: this can be understood as the result of  and  being different &quot;vertical shifts&quot; of the single curve   (We can say something similar for the differing &quot;shifts&quot; of  for the orange and green curves.)
+
+Now there _is_ a resolution to this in more advanced practice (algebraic geometry).  If we allow  to take on a &quot;value larger than any finite number&quot;, then the two sides of these equations can &quot;become equal&quot;.  Mathematicians introduce the &quot;*extended* plane&quot; which includes the &quot;point at infinity&quot;:  it is there that the red and blue or the orange and green arms intersect.  But &quot;infinity&quot; is _not_ a number in standard algebra, so we say _there_ that these equations &quot;have no solution&quot;.
+
+The fourth pairing   of the orange and blue curves _appears_ to have the solution  but this is *genuinely* &quot;spurious&quot;.  Since the range for the blue curve is  and that for the orange curve is  *cannot* be in the solution set for this equation.  (The &quot;point at infinity&quot; is where the two parabolic arms intersect, but again that is not admissible in standard algebra.)
+
+The &quot;safest&quot; method of solving the original set of equations for the interpretation in standard algebra is that shown as &quot;Method B&quot; by **ryang**, as the &quot;squared&quot; terms conceal these complications with the square-roots.
+  
+  [1]: https://i.stack.imgur.com/GxjLr.png

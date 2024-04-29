@@ -1,0 +1,11 @@
+Perhaps my answers will be idiosyncratic, since I&#39;m a philosopher of science who hasn&#39;t taken any math classes since Calculus (apart from some logic courses), and my main interest in measure theory was for the sake of probability theory.
+
+David Williams, *Probability with Martingales* is great for concepts as well as proofs, but there&#39;s a lot that it doesn&#39;t cover, I feel.
+
+I&#39;ve gotten a lot out of J.L. Doob&#39;s *Measure Theory*, which presents some common ideas in ways that are more general and deeper than what one usually finds, I believe.  Has a bit of droll humor, now and then, too.  I don&#39;t understand all of it, but I&#39;ve gotten a lot out of it.
+
+However, these books do not focus on analysis, but seemed worth mentioning.
+
+(*Avner Friedman, *Foundations of Modern Analysis* has an old-fashioned approach, as I understand, but I learned a lot from it as well.  This was where I started.  Munroe&#39;s *Introduction to Measure and Integration* fits well with Friedman&#39;s book.  I used them together.)
+
+(OK, and now feel free to ignore this.  Most of the other answers are probably by people who are better informed.)

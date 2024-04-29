@@ -1,0 +1,5 @@
+Set . We have , i.e.   for all . Since  runs all group, then  is Abelian.
+
+**Correction:** This proof is valid only for a finite group. Thanks to **DonAntonio**.
+
+**Addendum:** I am not sure that this assertion is true for infinite groups. A candidate \for a counter-example is =\langle a,b|a^2=b^2, (ab)^2=(ba)^2\rangle.

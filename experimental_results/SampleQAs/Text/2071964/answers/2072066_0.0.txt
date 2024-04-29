@@ -1,0 +1,3 @@
+Consider the matrix A made up rows (0,0,- 1,0),(0,0,1,0),(0,0,1,0) and (0,0,0,1). You will find that R made up of rows 1,0,- 1,0/0,1,1,0/0,0,1,0/0,0,0,1 and L with rows 1,1,0,0/1,0,1,0/0,0,1,0/0,0,0,1 are the right and left eigenvector matrices. That is if D is the doagonal (0,0,1,1) then AR =RD, LA=DL together RL,LR not equal and niether is equal to identity.
+
+

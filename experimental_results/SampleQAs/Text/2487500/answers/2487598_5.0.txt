@@ -1,0 +1,27 @@
+I am almost sure that group theory was developed to describe transformations of symmetric objects.
+
+For eample let&#39;s take a cube. Let&#39;s consider all the rotations of the cube such that the cube stays in place. F.e. you can rotate it around vertical aes  by . Or you can rotate it around horiontal aes . What if you combine these two transformations? You would get some new rotation, probably around some diagonal of the cube.
+
+You can rotate the cube around the  by . After that it&#39;s position would be the same as after rotation around  by . Let&#39;s count such rotations identical because they produce the same final position.
+
+How many different rotations of cube are possible? (hint: 24)
+
+1. Let&#39;s say that if we did not rotate a cube at all this IS a rotation (&quot;identical&quot; rotation).
+
+Note that:
+
+2. For every two rotations combination of these rotations is also rotation.
+
+3. For each rotation there is an &#39;opposite&#39; rotation, which returns the cube in original position.
+
+Note, that these three properties resemble very much the definition of group.
+
+Cube is symmetric. But there are many symmetric objects, symmetric in their own way, not like a cube. The group of transformation of an object (set of possible transformations and a rule, which gives a result of combination of two transformations) is a mathematical description of &quot;how eactly this object is symmetric&quot;.
+
+Another eample. Consider Rubik&#39;s Cube. There is a group of transformations of Rubik&#39;s Cube. Elements of the group are combinations of simple sides rotations (f.e. rotate facade clockwise, then left side clockwise, then back side two times). You can easily check that these transformations form a group.
+
+And as soon as I understand it&#39;s a group, I can prove that if you repeat the same transformation many times, sooner or later you will get into original state! (well, I used one more fact: there number of such transformations if finite).
+
+By the way, what is the number of possible states of Rubik&#39;s Cube? Google knows, but I can easily prove that it&#39;s divisible by 4, because there is a subgroup with 4 elements.
+
+Group theory is cool.

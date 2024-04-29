@@ -1,0 +1,57 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mspace width="0.222em">
+  </mspace>
+  <mi>
+   m
+  </mi>
+  <mo>
+   =
+  </mo>
+  <msubsup>
+   <mi>
+    p
+   </mi>
+   <mn>
+    1
+   </mn>
+   <mrow>
+    <msub>
+     <mi>
+      e
+     </mi>
+     <mrow>
+      <mn>
+       1
+      </mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </msubsup>
+  <mo>
+   ⋯
+  </mo>
+  <mspace width="0.222em">
+  </mspace>
+  <msubsup>
+   <mi>
+    p
+   </mi>
+   <mi>
+    k
+   </mi>
+   <mrow>
+    <msub>
+     <mi>
+      e
+     </mi>
+     <mi>
+      k
+     </mi>
+    </msub>
+   </mrow>
+  </msubsup>
+  <mtext>
+  </mtext>
+ </mrow>
+</math>

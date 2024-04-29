@@ -1,0 +1,42 @@
+I think your reasoning is correct -- a rational approximation is probably the best solution. But, constructing rational approximations is difficult.
+
+You have to decide how you will measure error. If you just look at maximum difference between the value of the function and it&#39;s approximation, then you are doing &quot;uniform&quot; or &quot;minimax&quot; approximation, which is usually more difficult than least-squares approximation. As you mentioned, Pade approximation is not very good for this, because it&#39;s a Taylor-series-like approach that&#39;s fixated on a single point. 
+ 
+I would recommend that you try the Mathematica **RationalInterpolation** function, if you haven&#39;t already.
+
+Or, if you have access to Matlab, there is an add-on called Chebfun that does a very good job of constructing minimax polynomial and rational approximations. There are commands named **ratinterp** and **remez**, and a couple of others. The name &quot;remez&quot; comes from the Remez Exchange Algorithm, which is the standard way of computing minimax approximations. This section of [the Chebfun documentation][1] explains the techniques that are available. Section 4.8 covers rational approximations.
+
+There is [a nice book by Trefethen][2] that provides a modern computationally-oriented account of approximation theory, with a focus on Chebfun. Insightful, and easy to read.
+
+**Edit**
+
+I tried the following Mathematica code
+
+    gx = GeneralMiniMaxApproximation[{t, 1 - t + t^(1/2.4)}, 
+                                 {t, {0, 1}, 3, 3}, x, 
+                                  MaxIterations -&gt; 200, WorkingPrecision -&gt; 50]
+
+and then 
+
+     = gx - 1 + x
+
+This gave an approximation  of your function
+
+  \frac{x^4 - 1.3730926529x^3 
+              - 1.2231795079x^2 
+              - 0.0120332034x
+              - 3.892203211 \times 10^{-7}}
+         {x^3 - 2.47604929086x^2
+              - 0.13996763348x 
+              - 0.00008072719}
+
+The error function looks like this:
+
+![error-plot][3]
+
+Not quite 8 bits, but getting close. You can fiddle with the degrees of the numerator and denominator to try to get something better.
+
+
+  [1]: http://www2.maths.ox.ac.uk/chebfun/guide/html/guide4.shtml#54
+  [2]: http://www.amazon.com/Approximation-Theory-Practice-Applied-Mathematics/dp/1611972396/ref=sr_1_1?ie=UTF8&amp;qid=1362882997&amp;sr=8-1&amp;keywords=trefethen%20approximation
+  [3]: http://i.stack.imgur.com/ry2cw.jpg

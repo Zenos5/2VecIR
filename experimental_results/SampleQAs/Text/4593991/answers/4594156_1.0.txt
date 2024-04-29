@@ -1,0 +1,16 @@
+Another variation.
+
+We observe that,  and  imply .
+
+Letting  we have:
+
+\begin{cases}
+ux=u-x\\u^2+x^2=1\end{cases}
+
+Then setting  under the restriction , we have:
+
+\begin{align}&amp;\begin{cases}a^2-b^2=2b\\a^2+b^2=\frac 12\end{cases}\\
+\implies &amp;4b^2+4b-1=0\\
+\implies &amp;x=\frac{\sqrt {4b+1}}{2}-b.\end{align}
+
+This completes the answer.

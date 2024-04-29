@@ -1,0 +1,3 @@
+For the standard form: .
+
+Since the , , and  directions are different, why are we &#39;allowed&#39; to write them this way? Isn&#39;t addition only allowed between &#39;alike&#39; quantities, i.e. values along the same direction?

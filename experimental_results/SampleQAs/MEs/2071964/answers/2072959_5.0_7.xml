@@ -1,0 +1,21 @@
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mrow>
+   <mo fence="true" form="prefix" stretchy="true">
+    ‖
+   </mo>
+   <mi>
+    q
+   </mi>
+   <mo fence="true" form="postfix" stretchy="true">
+    ‖
+   </mo>
+  </mrow>
+  <mo>
+   =
+  </mo>
+  <mn>
+   1
+  </mn>
+ </mrow>
+</math>
